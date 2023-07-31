@@ -102,6 +102,7 @@ Preprint, 2021
 
 - Working on topics related to Few-shot Learning, Multimodal Learning and Generative AI with the Content and User Understanding Team at ShareChat.
 - Advisors: [Vikram Gupta](https://www.linkedin.com/in/iamvikramgupta/?originalSubdomain=in), [Dr. Hisham Cholakkal](https://mbzuai-cv-lab.netlify.app/author/dr.-hisham-cholakkal/), [Dr. Anant Raj](https://anantrajml.github.io)
+- [Paper](https://arxiv.org/abs/2212.11109)
 <div style="text-align: right"> July 2022 - June 2023 </div>
 :::
 
@@ -112,7 +113,8 @@ Preprint, 2021
 
 - Worked on a project to create a new framework to evaluate one-shot generative models along two axes: sample recognizability vs. diversity (intra-class variability)
 - Using this framework, conducted a systematic evaluation of representative one-shot generative models (VAE, Neural Statistician, Data Augmentation GAN) on the Omniglot handwritten dataset.
-- Paper: [https://arxiv.org/abs/2205.10370](https://arxiv.org/abs/2205.10370)
+- [Paper](https://arxiv.org/abs/2205.10370)
+- [Code](https://github.com/serre-lab/diversity_vs_recognizability)
 - Advisors: [Dr. Thomas Serre](https://vivo.brown.edu/display/tserre), [Dr. Victor Boutin](https://serre-lab.clps.brown.edu/person/victor-boutin/)
 <div style="text-align: right"> Sept 2021 - May 2022 </div>
 :::
@@ -123,7 +125,7 @@ Preprint, 2021
 
 - Summer research intern, funded through the Mitacs Globalink Research Internship Program.
 - Worked on Weakly Supervised Semantic Segmentation.
-- Code: [https://github.com/xavierohan/WSS_SubCategory](https://github.com/xavierohan/WSS_SubCategory)
+- [Code](https://github.com/xavierohan/WSS_SubCategory)
 - Advisor: [Dr. Jose Dolz](https://josedolz.github.io)
 <div style="text-align: right"> July 2021 - Sept 2021 </div>
 :::
@@ -134,8 +136,8 @@ Preprint, 2021
 
 - Worked on an algorithm that recovers domain information in an unsupervised manner, by carefully removing class-specific noise from features. 
 - Used this carefully selected feature space to partition inputs and learn a domain-adaptive classifier.
-- Paper: [https://arxiv.org/abs/2112.04766](https://arxiv.org/abs/2112.04766)
-- Code: [https://github.com/xavierohan/AdaClust_DomainBed](https://github.com/xavierohan/AdaClust_DomainBed)
+- [Paper](https://arxiv.org/abs/2112.04766)
+- [Code](https://github.com/xavierohan/AdaClust_DomainBed)
 - Advisors: [Dr. Abhimanyu Dubey](https://ai.facebook.com/people/abhimanyu-dubey/), [Dr. Alex Pentland](https://www.media.mit.edu/people/sandy/overview/)
 <div style="text-align: right"> Jan 2021 - Nov 2022 </div>
 :::
