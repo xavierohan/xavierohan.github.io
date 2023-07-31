@@ -1,0 +1,26 @@
+---
+import { slugify } from "@renovamen/utils";
+import { SITE } from "@config";
+import Layout from "@layouts/Layout.astro";
+import ToggleLang from "@components/ToggleLang.astro";
+import {
+  getTags,
+  formatDate
+} from "@utils";
+
+export interface Props {
+  lang: string;
+  tag?: string;
+}
+
+const { lang, tag } = Astro.props;
+
+const title = "Blog";
+const allURL = `/wrtings`;
+const tagURL = `${allURL}tags/`;
+---
+
+<Layout title={`${title} - ${SITE.title}`} activePage={"writings"}>
+  <h1>{title} <ToggleLang /></h1>
+
+</Layout>
