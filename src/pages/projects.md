@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Projects.astro
-Code:
+projects:
   Repos:
     - name: AdaClust_DomainBed
       link: https://github.com/xavierohan/AdaClust_DomainBed
