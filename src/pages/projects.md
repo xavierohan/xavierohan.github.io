@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Projects.astro
 projects:
-  Repos:
+  Code:
     - name: AdaClust_DomainBed
       link: https://github.com/xavierohan/AdaClust_DomainBed
       desc: Code for AdaClust, Adaptive Methods for Aggregated Domain Generalization
