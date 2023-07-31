@@ -176,7 +176,7 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
 }
 
 .prose .paper-block .paper-images {
-  @apply w-1/4 flex-center p-1 rounded;
+  @apply w-1/4 flex-center p-3 rounded;
 }
 
 .prose .paper-block .paper-images:not(.no-image) {
