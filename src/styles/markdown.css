@@ -176,7 +176,7 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
 }
 
 .prose .paper-block .paper-images {
-  @apply w-1/4 flex-center p-1 rounded lt-sm:hidden;
+  @apply w-1/4 flex-center p-1 rounded;
 }
 
 .prose .paper-block .paper-images:not(.no-image) {
@@ -206,7 +206,7 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
 }
 
 .prose .experiance-block .experiance-images {
-  @apply w-1/4 flex-center p-1 rounded lt-sm:hidden;
+  @apply w-1/4 flex-center p-1 rounded;
 }
 
 .prose .experiance-block .experiance-images:not(.no-image) {
@@ -242,5 +242,5 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
 
 .imageclass
 {
-  @apply w-1/4 flex-center p-1 rounded lt-sm:hidden;
+  @apply w-1/4 flex-center p-1 rounded;
 }
