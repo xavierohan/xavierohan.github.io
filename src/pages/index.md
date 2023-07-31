@@ -102,7 +102,7 @@ Preprint, 2021
 
 - Working on topics related to Few-shot Learning, Multimodal Learning and Generative AI with the Content and User Understanding Team at ShareChat.
 - Advisors: [Vikram Gupta](https://www.linkedin.com/in/iamvikramgupta/?originalSubdomain=in), [Dr. Hisham Cholakkal](https://mbzuai-cv-lab.netlify.app/author/dr.-hisham-cholakkal/), [Dr. Anant Raj](https://anantrajml.github.io)
-<div style="text-align: right"> Jul 2022 - Present </div>
+<div style="text-align: right"> July 2022 - June 2023 </div>
 :::
 
 
@@ -125,7 +125,7 @@ Preprint, 2021
 - Worked on Weakly Supervised Semantic Segmentation.
 - Code: [https://github.com/xavierohan/WSS_SubCategory](https://github.com/xavierohan/WSS_SubCategory)
 - Advisor: [Dr. Jose Dolz](https://josedolz.github.io)
-<div style="text-align: right"> Jul 2021 - Sept 2021 </div>
+<div style="text-align: right"> July 2021 - Sept 2021 </div>
 :::
 
 :::exp
