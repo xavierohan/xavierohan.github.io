@@ -172,7 +172,7 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
 }
 
 .prose .paper-block {
-  @apply flex py-3 space-x-7 lt-sm:space-x-0 border-t border-c-dark;
+  @apply flex py-3 space-x-5 border-t border-c-dark;
 }
 
 .prose .paper-block .paper-images {
