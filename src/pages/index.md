@@ -100,7 +100,7 @@ Preprint, 2021
     <img src="/img/my_imgs/sharechatlogo.png" width="50" align="right"/>
 </div> -->
 
-- Working on topics related to Few-shot Learning, Multimodal Learning and Generative AI with the Content and User Understanding Team at ShareChat.
+- Worked on topics related to Few-shot Learning, Multimodal Learning and Generative AI with the Content and User Understanding Team at ShareChat.
 - Advisors: [Vikram Gupta](https://www.linkedin.com/in/iamvikramgupta/?originalSubdomain=in), [Dr. Hisham Cholakkal](https://mbzuai-cv-lab.netlify.app/author/dr.-hisham-cholakkal/), [Dr. Anant Raj](https://anantrajml.github.io)
 - [Paper](https://arxiv.org/abs/2212.11109)
 <div style="text-align: right"> July 2022 - June 2023 </div>
