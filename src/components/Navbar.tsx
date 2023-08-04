@@ -6,7 +6,8 @@ export const Navbar: Component<{
   activePage?: string;
   hasToc?: boolean;
 }> = (props) => {
-  const [isDark, setDark] = useDark();
+  const isDark = false
+  const setDark = false
   const [isFixed, setIsFixed] = createSignal(false);
   const [isVisible, setIsVisible] = createSignal(false);
 
@@ -64,9 +65,9 @@ export const Navbar: Component<{
           <span i-uil:search />
         </a> */}
 
-        <button nav-item title="Toggle dark" onClick={() => setDark(!isDark())}>
+        {/* <button nav-item title="Toggle dark" onClick={() => setDark(!isDark())}>
           <div i="carbon-sun dark:carbon-moon" />
-        </button>
+        </button> */}
 
         {props.hasToc && <ToggleToc />}
       </nav>
