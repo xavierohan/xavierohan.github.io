@@ -4,7 +4,7 @@ import { GISCUS } from "@config";
 
 export const Giscus: Component = () => {
   const [isDark] = useDark();
-  const getTheme = () => (isDark() ? GISCUS.dark : GISCUS.light);
+  const getTheme = () => (GISCUS.light);
 
   const getScriptElement = (theme: string) => {
     const element = document.createElement("script");

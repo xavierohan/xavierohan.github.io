@@ -64,9 +64,9 @@ export const Navbar: Component<{
           <span i-uil:search />
         </a> */}
 
-        <button nav-item title="Toggle dark" onClick={() => setDark(!isDark())}>
+        {/* <button nav-item title="Toggle dark" onClick={() => setDark(!isDark())}>
           <div i="carbon-sun dark:carbon-moon" />
-        </button>
+        </button> */}
 
         {props.hasToc && <ToggleToc />}
       </nav>
