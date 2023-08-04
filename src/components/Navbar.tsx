@@ -6,7 +6,8 @@ export const Navbar: Component<{
   activePage?: string;
   hasToc?: boolean;
 }> = (props) => {
-  const [isDark, setDark] = useDark();
+  const isDark = false
+  const setDark = false
   const [isFixed, setIsFixed] = createSignal(false);
   const [isVisible, setIsVisible] = createSignal(false);
 
