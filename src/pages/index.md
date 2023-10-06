@@ -18,9 +18,9 @@ socials:
     link: https://twitter.com/xavierohan
 ---
 
-👋 Hi! I'm a recent graduate from [Manipal Institute of Technology, India](https://manipal.edu/mit.html), where I obtained a Bachelors of Technology (B.Tech) in Electronics and Instrumentation with a minor in Computational Intelligence. I've developed a keen interest in all things ML during my first year and was fortunate to gain research experience during my undergrad. Prior to joining the Content and User Understanding team at ShareChat, I was fortunate to work on projects with the Serre Lab (Brown Univeristy), Human Dynamics Group (MIT Media Lab, Massachusetts Institute of Technology), ETS, Montreal and FOR.ai (now Cohere for AI).
+👋 Hi! I'm currently a Grad Student at [Boston University](https://www.bu.edu/cs/) pursuing my Masters in AI. I did my undergrad from [Manipal Institute of Technology, India](https://manipal.edu/mit.html), in Electronics and Instrumentation with a minor in Computational Intelligence, and had developed a keen interest in all things ML during my first year and was fortunate to gain research experience along the way. Prior to joining BU, I worked with the Content and User Understanding team at ShareChat, and was fortunate to work on projects with the Serre Lab (Brown University), Human Dynamics Group (MIT Media Lab, Massachusetts Institute of Technology), ETS, Montreal and FOR.ai (now Cohere for AI).
 
-I'll be joining the MS AI Program at [Boston Univeristy](https://www.bu.edu/cs/) starting Fall 2023.
+At BU, I am advised by [Prof. Joshua Peterson](https://cocosci.princeton.edu/jpeterson/) at the Cognitive Data Science Lab, working on the intersection of ML and Human Behaviour. I'm also working on grounding multimodal language models for personalization with [Arijit Ray](https://arijitray1993.github.io). 
 
 [Curriculum Vitae](/files/cv/Xavier_Thomas_CV.pdf) / xavierohan1@gmail.com
 
@@ -92,6 +92,15 @@ Preprint, 2021
 | **Mitacs Globalink Research Intern**, _[École de technologie supérieure (ÉTS), Montréal](https://english.pku.edu.cn/)_ | 2018      |
 | **Research Assistant**, _[MIT Media Lab, Massachusetts Institute of Technology](https://english.pku.edu.cn/)_ | 2018      |
 | **Researcher**, _[For.ai (now Cohere For AI)](https://for.ai)_ | 2018      | -->
+
+:::exp
+**<font size="5">Cognitive Data Science Lab (Boston University)</font>**, Research Assistant
+<img src="/img/my_imgs/bu.png" width="50" align="right" class="paper-images"/>
+
+- Working on the intersection of ML and Human Behaviour.
+- Advisor: [Prof. Joshua Peterson ](https://cocosci.princeton.edu/jpeterson/)
+<div style="text-align: right"> Oct 2023 - Present </div>
+:::
 
 :::exp[/img/my_imgs/sharechatlogo.png]
 **<font size="5">ShareChat</font>**, Machine Learning Engineer Intern
