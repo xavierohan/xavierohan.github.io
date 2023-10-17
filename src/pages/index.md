@@ -20,7 +20,7 @@ socials:
 
 👋 Hi! I'm currently a Grad Student at [Boston University](https://www.bu.edu/cs/) pursuing my Masters in AI. I did my undergrad from [Manipal Institute of Technology, India](https://manipal.edu/mit.html), in Electronics and Instrumentation with a minor in Computational Intelligence, and had developed a keen interest in all things ML during my first year and was fortunate to gain research experience along the way. Prior to joining BU, I worked with the Content and User Understanding team at ShareChat, and was fortunate to work on projects with the Serre Lab (Brown University), Human Dynamics Group (MIT Media Lab, Massachusetts Institute of Technology), ETS, Montreal and FOR.ai (now Cohere for AI).
 
-At BU, I am advised by [Prof. Joshua Peterson](https://cocosci.princeton.edu/jpeterson/) at the Cognitive Data Science Lab, working on the intersection of ML and Human Behaviour. I'm also working on grounding personalized objects in multimodal language models with [Arijit Ray](https://arijitray1993.github.io).
+At BU, I'm currently working with [Prof. Joshua Peterson](https://cocosci.princeton.edu/jpeterson/) at the Cognitive Data Science Lab, working on the intersection of ML and Human Behaviour. I'm also working on grounding personalized objects in multimodal language models with [Arijit Ray](https://arijitray1993.github.io).
 
 [Curriculum Vitae](/files/cv/Xavier_Thomas_CV.pdf) / xavierohan1@gmail.com
 
