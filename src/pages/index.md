@@ -97,7 +97,7 @@ Preprint, 2021
 **<font size="5">Cognitive Data Science Lab (Boston University)</font>**, Research Assistant
 <img src="/img/my_imgs/bu.png" width="50" align="right" class="paper-images"/>
 
-- Working on the intersection of ML and Human Behaviour.
+- Working on building interpretable, high-precision Machine Learning models of Human Behavior.
 - Advisor: [Prof. Joshua Peterson ](https://cocosci.princeton.edu/jpeterson/)
 <div style="text-align: right"> Oct 2023 - Present </div>
 :::
