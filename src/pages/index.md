@@ -94,6 +94,14 @@ Preprint, 2021
 | **Researcher**, _[For.ai (now Cohere For AI)](https://for.ai)_ | 2018      | -->
 
 :::exp
+**<font size="5">Center of Computing & Data Sciences (Boston University)</font>**, Teaching Assistant
+<img src="/img/my_imgs/bu.png" width="50" align="right" class="paper-images"/>
+
+- TA for [CDS DS 598 B1](https://dl4ds.github.io/sp2024/) - Deep Learning for Data Science, with [Prof. Thomas Gardos](https://www.bu.edu/cds-faculty/profile/thomas-gardos/)
+<div style="text-align: right"> Jan 2024 - Present </div>
+:::
+
+:::exp
 **<font size="5">Cognitive Data Science Lab (Boston University)</font>**, Research Assistant
 <img src="/img/my_imgs/bu.png" width="50" align="right" class="paper-images"/>
 
