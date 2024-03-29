@@ -54,12 +54,19 @@ export const Navbar: Component<{
           </span>
         </a>
 
-        {/* <a nav-item href="/writings" title="Writings">
+        <a nav-item href="/writings" title="Writings">
           <div i-majesticons:pencil-line class="md:hidden" />
           <span class={`lt-md:hidden ${props.activePage === "writings" && "active"}`}>
             Writings
           </span>
-        </a> */}
+        </a>
+
+        <a nav-item href="/misc" title="Misc">
+          <div i-majesticons:pencil-line class="md:hidden" />
+          <span class={`lt-md:hidden ${props.activePage === "misc" && "active"}`}>
+            Misc
+          </span>
+        </a>
 
         {/* <a nav-item href="/search" title="Search">
           <span i-uil:search />
