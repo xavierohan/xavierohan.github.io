@@ -10,6 +10,10 @@ movies:
   - title: Shutter Island
     description: " - Mind blown"
 
+podcasts:
+  - title: "Chris Williamson - Modern Wisdom"
+    description: " - Great guests, great conversations"
+
 music:
   - title: "Oasis/ Liam Gallagher/ Noel Gallagher"
     description: " - Used to be my favourite musician(s), but can't lie, they fell off"
