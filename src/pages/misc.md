@@ -42,6 +42,8 @@ tvshows:
   - title: HIMYM
   - title: The Inbetweeners
     description: " - The UK version. Massively underrated outside the UK"  
+  - title: It's Always Sunny in Philadelphia
+  
 
 spotifyPlaylistUrl: "https://open.spotify.com/embed/playlist/024qwrLDdV3CRDwXKe4WpZ?utm_source=generator"
 ---
