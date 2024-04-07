@@ -1,0 +1,57 @@
+---
+import Layout from "@layouts/Layout.astro";
+
+export interface RecommendationItem {
+  title: string;
+  description: string;
+}
+
+export interface Props {
+  frontmatter: {
+    movies: RecommendationItem[];
+    music: RecommendationItem[];
+    tvshows: RecommendationItem[];
+    spotifyPlaylistUrl: string;
+  };
+}
+
+const { movies, music, tvshows, spotifyPlaylistUrl } = Astro.props.frontmatter;
+---
+
+<Layout title={`Recommendations - ${import.meta.env.SITE.title}`} activePage="recommendations">
+  <h1>Recommendations</h1>
+  
+  <h2>Movies</h2>
+  <ul>
+    {movies.map((movie) => (
+      <li>
+        <strong>{movie.title}</strong> {movie.description}
+      </li>
+    ))}
+  </ul>
+
+  <h2>TV Shows</h2>
+  <ul>
+    {tvshows.map((item) => (
+      <li>
+        <strong>{item.title}</strong> {item.description}
+      </li>
+    ))}
+  </ul>
+
+  <h2>Music</h2>
+  <ul>
+    {music.map((item) => (
+      <li>
+        <strong>{item.title}</strong> {item.description}
+      </li>
+    ))}
+  </ul>
+
+  {spotifyPlaylistUrl && (
+    <div>
+      <h2>Spotify Playlist</h2>
+      <iframe style="border-radius:12px" src={spotifyPlaylistUrl} width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+  )}
+</Layout>
