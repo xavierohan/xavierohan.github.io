@@ -48,21 +48,21 @@ export const Navbar: Component<{
 
       <nav hstack space-x-4>
         <a nav-item href="/projects" title="Projects">
-          {/* <div i-ph:flask-duotone class="md:hidden" />  Assuming 'i-ph:flask-duotone' is the icon for experiments */}
+          <div i-ph:flask-duotone class="md:hidden" />  {/* Assuming 'i-ph:flask-duotone' is the icon for experiments */}
           <span class={`${props.activePage === "projects" ? 'text-active' : ''}`}>
             Projects
           </span>
         </a>
 
         <a nav-item href="/writings" title="Writings">
-          {/* <div i-ph:pencil-duotone class="md:hidden" />  Assuming 'i-ph:pencil-duotone' is the icon for writing */}
+          <div i-ph:pencil-duotone class="md:hidden" />  {/* Assuming 'i-ph:pencil-duotone' is the icon for writing */}
           <span class={`lt-md:hidden ${props.activePage === "writings" ? 'text-active' : ''}`}>
             Writings
           </span>
         </a>
 
         <a nav-item href="/misc" title="Misc">
-          {/* <div i-ph:bookmark-duotone class="md:hidden" />  Assuming 'i-ph:bookmark-duotone' is the icon for Misc */}
+          <div i-ph:bookmark-duotone class="md:hidden" />  {/* Assuming 'i-ph:bookmark-duotone' is the icon for Misc */}
           <span class={`lt-md:hidden ${props.activePage === "misc" ? 'text-active' : ''}`}>
             Misc
           </span>
