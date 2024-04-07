@@ -49,21 +49,21 @@ export const Navbar: Component<{
       <nav hstack space-x-4>
         <a nav-item href="/projects" title="Projects">
           <div i-ph:rocket-launch-duotone class="md:hidden" />
-          <span class={`${props.activePage === "projects" && "active"}`}>
+          <span class={`${props.activePage === "projects" }`}>
             Projects
           </span>
         </a>
 
         <a nav-item href="/writings" title="Writings">
           <div i-majesticons:pencil-line class="md:hidden" />
-          <span class={`lt-md:hidden ${props.activePage === "writings" && "active"}`}>
+          <span class={`lt-md:hidden ${props.activePage === "writings"}`}>
             Writings
           </span>
         </a>
 
         <a nav-item href="/misc" title="Misc">
           <div i-majesticons:pencil-line class="md:hidden" />
-          <span class={`lt-md:hidden ${props.activePage === "misc" && "active"}`}>
+          <span class={`lt-md:hidden ${props.activePage === "misc"}`}>
             Misc
           </span>
         </a>
