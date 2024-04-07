@@ -13,6 +13,8 @@ movies:
 podcasts:
   - title: "Chris Williamson - Modern Wisdom"
     description: " - Great guests, great conversations"
+  - title: "Conan O'Brien Needs a Friend"
+    description: " - Love Love Love Conan. His absurdist, clever, often self-deprecating humour is peak. The greatest to ever do it. There will never be another Conan."
 
 music:
   - title: "Oasis/ Liam Gallagher/ Noel Gallagher"
