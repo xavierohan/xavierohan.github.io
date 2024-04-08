@@ -60,14 +60,7 @@ export const Navbar: Component<{
             Writings
           </span>
         </a>
-
-        <a nav-item href="/misc" title="Misc">
-          <div i-ph:bookmark-duotone class="md:hidden" />  {/* Assuming 'i-ph:bookmark-duotone' is the icon for Misc */}
-          <span class={`lt-md:hidden ${props.activePage === "misc" ? 'text-active' : ''}`}>
-            Misc
-          </span>
-        </a>
-
+        
         {/* <a nav-item href="/search" title="Search">
           <span i-uil:search />
         </a> */}
