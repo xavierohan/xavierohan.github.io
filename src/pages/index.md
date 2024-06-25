@@ -99,15 +99,6 @@ Preprint, 2021
 <div style="text-align: right"> Jan 2024 - Present </div>
 :::
 
-:::exp
-**<font size="5">Cognitive Data Science Lab (Boston University)</font>**, Research Assistant
-<img src="/img/my_imgs/bu.png" width="50" align="right" class="paper-images"/>
-
-- Working on building interpretable, high-precision Machine Learning models of Human Behavior.
-- Advisor: [Prof. Joshua Peterson ](https://cocosci.princeton.edu/jpeterson/)
-<div style="text-align: right"> Oct 2023 - Present </div>
-:::
-
 :::exp[/img/my_imgs/sharechatlogo.png]
 **<font size="5">ShareChat</font>**, Machine Learning Engineer Intern
 <img src="/img/my_imgs/sharechatlogo.png" width="50" align="right"/>
