@@ -92,11 +92,28 @@ Preprint, 2021
 | **Researcher**, _[For.ai (now Cohere For AI)](https://for.ai)_ | 2018      | -->
 
 :::exp
+**<font size="5">Massachusetts Institute of Technology</font>**, Research Collaborator
+<img src="/img/my_imgs/medialab.png" width="50" align="right"/>
+
+- Working with the Camera Culture Group at the MIT Media Lab on Decentralized AI.
+<div style="text-align: right"> Jun 2024 - Present </div>
+:::
+
+:::exp
+**<font size="5">Center of Computing & Data Sciences (Boston University)</font>**, Research Assistant
+<img src="/img/my_imgs/bu.png" width="50" align="right" class="paper-images"/>
+
+- Working with Visual Large Language Models
+- Engineering an AI Teaching Assistant to be deployed for courses at BU. (More soon ...)
+<div style="text-align: right"> Jun 2024 - Present </div>
+:::
+
+:::exp
 **<font size="5">Center of Computing & Data Sciences (Boston University)</font>**, Teaching Assistant
 <img src="/img/my_imgs/bu.png" width="50" align="right" class="paper-images"/>
 
-- TA for [CDS DS 598 B1](https://dl4ds.github.io/sp2024/) - Deep Learning for Data Science, with [Prof. Thomas Gardos](https://www.bu.edu/cds-faculty/profile/thomas-gardos/)
-<div style="text-align: right"> Jan 2024 - Present </div>
+- TA for [CDS DS 598 B1 (Spring 2024)](https://dl4ds.github.io/sp2024/) - Deep Learning for Data Science, with [Prof. Thomas Gardos](https://www.bu.edu/cds-faculty/profile/thomas-gardos/)
+<div style="text-align: right"> Jan 2024 - May 2024 </div>
 :::
 
 :::exp[/img/my_imgs/sharechatlogo.png]
@@ -106,7 +123,10 @@ Preprint, 2021
     <img src="/img/my_imgs/sharechatlogo.png" width="50" align="right"/>
 </div> -->
 
-- Worked on topics related to Few-shot Learning, Multimodal Learning and Generative AI with the Content and User Understanding Team at ShareChat.
+- Introduced a new Computer Vision feature representation method into production; improved performance on downstream tasks such as classification, content moderation etc.
+- Developed a Web dashboard to create and edit AI Generated content, the dashboard was used to seed content in ShareChat’s platform.
+-  Engineered and launched Natasha, an AI assistant integrated with ShareChat’s messaging service.
+- Tech Stack: Python, Streamlit, Django, Docker, Kubernetes, Jenkins, Google Cloud
 - Advisors: [Vikram Gupta](https://www.linkedin.com/in/iamvikramgupta/?originalSubdomain=in), [Dr. Hisham Cholakkal](https://mbzuai-cv-lab.netlify.app/author/dr.-hisham-cholakkal/), [Dr. Anant Raj](https://anantrajml.github.io)
 - [Paper](https://arxiv.org/abs/2212.11109)
 <div style="text-align: right"> July 2022 - June 2023 </div>
@@ -117,8 +137,8 @@ Preprint, 2021
 **<font size="5">Serre Lab (Brown University)</font>**, Research Intern
 <img src="img/my_imgs/brownlogo.jpeg" width="50" align="right" class="paper-images"/>
 
-- Worked on a project to create a new framework to evaluate one-shot generative models along two axes: sample recognizability vs. diversity (intra-class variability)
-- Using this framework, conducted a systematic evaluation of representative one-shot generative models (VAE, Neural Statistician, Data Augmentation GAN) on the Omniglot handwritten dataset.
+- Developed a framework to evaluate one-shot generative models.
+- Conducted a systematic evaluation of representative one-shot generative models against Human performance on the Omniglot handwritten dataset, using this framework.
 - [Paper](https://arxiv.org/abs/2205.10370)
 - [Code](https://github.com/serre-lab/diversity_vs_recognizability)
 - Advisors: [Dr. Thomas Serre](https://vivo.brown.edu/display/tserre), [Dr. Victor Boutin](https://serre-lab.clps.brown.edu/person/victor-boutin/)
@@ -140,8 +160,8 @@ Preprint, 2021
 **<font size="5">Massachusetts Institute of Technology</font>**, Research Assistant
 <img src="/img/my_imgs/medialab.png" width="50" align="right"/>
 
-- Worked on an algorithm that recovers domain information in an unsupervised manner, by carefully removing class-specific noise from features. 
-- Used this carefully selected feature space to partition inputs and learn a domain-adaptive classifier.
+- Developed on an algorithm that recovers domain information in an unsupervised manner, by carefully removing class-specific noise from features, which is used to learn a domain-adaptive classifier.
+- Obtained improved performance in standard domain generalization datasets such as PACS(+3.4%), VLCS(+2.5%), OfficeHome(+0.5%), DomainNet(+1.9%), and TerraIncognita(+1.7%) etc, compared to ERM.
 - [Paper](https://arxiv.org/abs/2112.04766)
 - [Code](https://github.com/xavierohan/AdaClust_DomainBed)
 - Advisors: [Dr. Abhimanyu Dubey](https://ai.facebook.com/people/abhimanyu-dubey/), [Dr. Alex Pentland](https://www.media.mit.edu/people/sandy/overview/)
