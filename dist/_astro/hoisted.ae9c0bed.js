@@ -1,0 +1,1 @@
+import"./hoisted.ef057739.js";const o=["\\(o_o)/","(o^^)o","(˚Δ˚)b","(^-^*)","(^_^)b","(╯‵□′)╯","(='X'=)","(>_<)","\\(°ˊДˋ°)/","ㄟ(▔▽▔)ㄏ"],e=document.querySelector("#emoji");e&&(e.innerHTML=o[Math.floor(Math.random()*o.length)]);
