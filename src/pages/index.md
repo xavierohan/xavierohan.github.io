@@ -103,7 +103,6 @@ Preprint, 2021
 **<font size="5">Center of Computing & Data Sciences (Boston University)</font>**, Research Assistant
 <img src="/img/my_imgs/bu.png" width="50" align="right" class="paper-images"/>
 
-- Working with Visual Large Language Models
 - Engineering an AI Teaching Assistant to be deployed for courses at BU. (More soon ...)
 <div style="text-align: right"> Jun 2024 - Present </div>
 :::
