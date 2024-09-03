@@ -40,8 +40,8 @@ Full Documentation: http://docs.edubotics.ai
 
 Applications built with edubotics-core: https://github.com/edubotics-ai/edubotics-app
 
-<img src="public/img/my_imgs/edubotics_1.png" class="paper-images"  width="100%" height="100%"/>
-<img src="public/img/my_imgs/edubotics_2.png" class="paper-images"  width="100%" height="100%"/>
+<img src="/img/my_imgs/edubotics_1.png" class="paper-images"  width="100%" height="100%"/>
+<img src="/img/my_imgs/edubotics_2.png" class="paper-images"  width="100%" height="100%"/>
 
 
 ## AdaClust: Adaptive Methods for Aggregated Domain Generalization
