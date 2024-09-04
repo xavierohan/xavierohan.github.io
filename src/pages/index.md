@@ -150,12 +150,12 @@ Preprint, 2021
 - Conducted systematic evaluations of generative models using this framework.
 - Advisors: [Dr. Thomas Serre](https://vivo.brown.edu/display/tserre), [Dr. Victor Boutin](https://serre-lab.clps.brown.edu/person/victor-boutin/)
 - <span style="white-space: nowrap;">
-  <a href="https://arxiv.org/abs/2205.10370" style="color: black; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">
-    <i class="fas fa-file-alt" style="color: white; text-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black;"></i> Paper
-  </a> |
   <a href="https://github.com/serre-lab/diversity_vs_recognizability" style="color: black; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">
     <i class="fab fa-github" style="color: black;"></i> Code
-  </a>
+  </a> |
+  <a href="https://arxiv.org/abs/2205.10370" style="color: black; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">
+    <i class="fas fa-file-alt" style="color: white; text-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black;"></i> Paper
+  </a> 
 </span>
 <div style="text-align: right">Sept 2021 - May 2022</div>
 :::
