@@ -8,6 +8,12 @@ projects:
       tech:
         - i-logos:python
       repo: edubotics-ai/edubotics-core
+    - name: sonar
+      link: https://github.com/aidecentralized/sonar
+      desc: SONAR - Self-Organizing Network of Aggregated Representations
+      tech:
+        - i-logos:python
+      repo: aidecentralized/sonar
     - name: AdaClust_DomainBed
       link: https://github.com/xavierohan/AdaClust_DomainBed
       desc: Code for AdaClust, Adaptive Methods for Aggregated Domain Generalization
@@ -42,11 +48,21 @@ Applications built with edubotics-core: https://github.com/edubotics-ai/edubotic
 
 <img src="/img/my_imgs/edubotics_1.png" class="paper-images"  width="100%" height="100%"/>
 <img src="/img/my_imgs/edubotics_2.png" class="paper-images"  width="100%" height="100%"/>
+&nbsp;
 
+## MAViC: Multimodal Active Learning for Video Captioning
+
+A large number of annotated video-caption pairs are required for training video captioning models, resulting in high annotation costs. Active learning can be instrumental in reducing these annotation requirements. However, active learning for video captioning is challenging because multiple semantically similar captions are valid for a video, resulting in high entropy outputs even for less-informative samples. Moreover, video captioning algorithms are multimodal in nature with a visual encoder and language decoder. Further, the sequential and combinatorial nature of the output makes the problem even more challenging. In this work, we introduce MAViC which leverages our proposed Multimodal Semantics Aware Sequential Entropy (M-SASE) based acquisition function to address the challenges of active learning approaches for video captioning. Our approach integrates semantic similarity and uncertainty of both visual and language dimensions in the acquisition function. Our detailed experiments empirically demonstrate the efficacy of M-SASE for active learning for video captioning and improve on the baselines by a large margin.
+
+<img src="/img/my_imgs/MAVIC.png" class="paper-images"  width="100%" height="100%"/>
+
+Full Paper: [https://arxiv.org/abs/2212.11109](https://arxiv.org/abs/2212.11109)
+
+&nbsp;
 
 ## AdaClust: Adaptive Methods for Aggregated Domain Generalization
 
-Domain generalization involves learning a classifier from a heterogeneous collection of training sources such that it generalizes to data drawn from similar unknown target domains, with applications in large-scale learning and personalized inference. In many settings, privacy concerns prohibit obtaining domain labels for the training data samples, and instead only have an aggregated collection of training points. Existing approaches that utilize domain labels to create domain-invariant feature representations are inapplicable in this setting, requiring alternative approaches to learn generalizable classifiers. In this paper, we propose a domain-adaptive approach to this problem, which operates in two steps: (a) we cluster training data within a carefully chosen feature space to create pseudo-domains, and (b) using these pseudo-domains we learn a domain-adaptive classifier that makes predictions using information about both the input and the pseudo-domain it belongs to. Our approach achieves state-of-the-art performance on a variety of domain generalization benchmarks without using domain labels whatsoever. Furthermore, we provide novel theoretical guarantees on domain generalization  in using cluster information. Our approach is amenable to ensemble-based methods and provides substantial gains even on large-scale benchmark datasets.
+Domain generalization involves learning a classifier from a heterogeneous collection of training sources such that it generalizes to data drawn from similar unknown target domains, with applications in large-scale learning and personalized inference. In many settings, privacy concerns prohibit obtaining domain labels for the training data samples, and instead only have an aggregated collection of training points. Existing approaches that utilize domain labels to create domain-invariant feature representations are inapplicable in this setting, requiring alternative approaches to learn generalizable classifiers. In this work, we propose a domain-adaptive approach to this problem, which operates in two steps: (a) we cluster training data within a carefully chosen feature space to create pseudo-domains, and (b) using these pseudo-domains we learn a domain-adaptive classifier that makes predictions using information about both the input and the pseudo-domain it belongs to. Our approach achieves state-of-the-art performance on a variety of domain generalization benchmarks without using domain labels whatsoever. Furthermore, we provide novel theoretical guarantees on domain generalization  in using cluster information. Our approach is amenable to ensemble-based methods and provides substantial gains even on large-scale benchmark datasets.
 
 <img src="/img/my_imgs/main_cvpr22_new.jpg" class="paper-images"/>
 
