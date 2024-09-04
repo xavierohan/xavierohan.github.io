@@ -18,7 +18,7 @@ socials:
     link: https://twitter.com/xavierohan
 ---
 
-👋 Hi! I'm Xavier Thomas, currently pursuing my Master's in AI at Boston University. I hold a B.Tech. in Electronics and Instrumentation with a minor in Computational Intelligence from Manipal Institute of Technology, India. My passion for machine learning was sparked early in my academic journey, leading me to gain diverse research experience. Before joining BU, I worked as a Machine Learning Engineer at ShareChat and collaborated on research projects with the Serre Lab at Brown University, the Human Dynamics Group at MIT Media Lab, ETS Montreal, and FOR.ai (now Cohere for AI).
+👋 Hi! I'm currently a Grad Student at [Boston University](https://www.bu.edu/cs/) pursuing my Masters in AI. I did my undergrad from [Manipal Institute of Technology, India](https://manipal.edu/mit.html), in Electronics and Instrumentation with a minor in Computational Intelligence, and had developed a keen interest in all things ML during my first year and was fortunate to gain research experience along the way. Prior to joining BU, I worked with the Content and User Understanding team at ShareChat, and was fortunate to work on projects with the Serre Lab (Brown University), Human Dynamics Group (MIT Media Lab, Massachusetts Institute of Technology), ETS, Montreal and FOR.ai (now Cohere for AI).
 
 🔍 **Currently Seeking:** Full-time opportunities in Machine Learning/Computer Vision Research/Engineering roles for Summer 2025.
 
