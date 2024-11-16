@@ -1,17 +1,10 @@
 ---
 layout: ../layouts/Misc.astro
-movies:
-  - title: "Schindler's List"
-    description: " - Ooof.. Amazing Film"
-  - title: "Interstellar"
-    description: " - Obviously"
-  - title: "Taare Zameen Par"
-    description: " - First movie that hooked me emotionally"
-  - title: Shutter Island
-    description: " - Mind blown"
 
 podcasts:
   - title: "Chris Williamson - Modern Wisdom"
+    description: " - Apart from the Bro Science bits, Chris's conversation with his guests are easy to listen to and insightful"
+  - title: "Lex Fridman Podcast"
     description: " - Great guests, great conversations"
   - title: "Conan O'Brien Needs a Friend"
     description: " - Love Love Love Conan. His absurdist, clever, often self-deprecating humour is peak. The greatest to ever do it. There will never be another Conan."
@@ -23,6 +16,8 @@ music:
     description: " - New favourite"
   - title: "Arctic Monkeys"
     description: " - Still dope"
+  - title: "Father John Misty"
+    description: ""
   - title: "Seafret"
     description: ""
   - title: "Chance Peña"
@@ -30,9 +25,13 @@ music:
   - title: "The Shins"
     description: ""
   - title: "Hans Williams"
-    description: ""
+    description: " - Underrated"
   - title: "Travis"
+    description: " - 'Why does it always rain on me?' - is beautiful"
+  - title: "Ricky Montgomery"
     description: ""
+  - title: "Goo Goo Dolls"
+    description: " - Just the one song - Iris"
   - title: "Billy Joel/ Stone Roses/ The Verve/ Jack Johnson/ ..."
     description: " - The list goes on..."
 

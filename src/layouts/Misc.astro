@@ -8,7 +8,6 @@ export interface RecommendationItem {
 
 export interface Props {
   frontmatter: {
-    movies: RecommendationItem[];
     music: RecommendationItem[];
     tvshows: RecommendationItem[];
     podcasts: RecommendationItem[];
@@ -16,21 +15,12 @@ export interface Props {
   };
 }
 
-const { movies, music, tvshows, podcasts, spotifyPlaylistUrl } = Astro.props.frontmatter;
+const { music, tvshows, podcasts, spotifyPlaylistUrl } = Astro.props.frontmatter;
 ---
 
 <Layout title={`Misc - ${import.meta.env.SITE.title}`} activePage="Misc">
   <h1>Recommendations</h1>
   
-  <h2>Movies</h2>
-  <ul>
-    {movies.map((movie) => (
-      <li>
-        <strong>{movie.title}</strong> {movie.description}
-      </li>
-    ))}
-  </ul>
-
   <h2>TV Shows</h2>
   <ul>
     {tvshows.map((item) => (
