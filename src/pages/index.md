@@ -20,7 +20,7 @@ socials:
 
 👋 Hi! I'm currently a Grad Student at [Boston University](https://www.bu.edu/cs/) pursuing my Masters in AI. I did my undergrad from [Manipal Institute of Technology, India](https://manipal.edu/mit.html), in Electronics and Instrumentation with a minor in Computational Intelligence, and had developed a keen interest in all things ML during my first year and was fortunate to gain research experience along the way. Prior to joining BU, I worked with the Content and User Understanding team at ShareChat, and was fortunate to work on projects with the Serre Lab (Brown University), Human Dynamics Group (MIT Media Lab, Massachusetts Institute of Technology), ETS, Montreal and FOR.ai (now Cohere for AI).
 
-At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io) and am working on my MS Thesis around Vision-Language Models. 
+At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io) and am working on my MS Thesis focused on Vision-Language Models. 
 
 🔍 **Currently Seeking:** Full-time opportunities in Machine Learning/Computer Vision Research/Engineering roles for Summer 2025.
 
@@ -103,7 +103,7 @@ Preprint, 2021
 <img src="/img/my_imgs/bu.png" width="50" align="right" class="paper-images"/>
 
 - Developed [edubotics-core](https://github.com/edubotics-ai/edubotics-core) - an open-source Python library for building LLM-based chatbots efficiently, focusing on vector storage, retrieval, and processing.
-- Conducting my MS Thesis (advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io)) around Vision-Language Models.
+- Conducting my MS Thesis (advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io)) focused on Vision-Language Models.
 - <span style="white-space: nowrap;">
   <a href="https://github.com/edubotics-ai/edubotics-core" style="color: black; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">
     <i class="fab fa-github" style="color: black;"></i> Code
