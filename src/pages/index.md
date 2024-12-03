@@ -91,14 +91,6 @@ Preprint, 2021
 ## Experience
 
 :::exp
-**<font size="5">Massachusetts Institute of Technology</font>**, Research Collaborator  
-<img src="/img/my_imgs/medialab.png" width="50" align="right"/>
-
-- Working with the Camera Culture Group at the MIT Media Lab on Decentralized AI.
-<div style="text-align: right">Jun 2024 - Present</div>
-:::
-
-:::exp
 **<font size="5">Boston University</font>**, Research Assistant  
 <img src="/img/my_imgs/bu.png" width="50" align="right" class="paper-images"/>
 
