@@ -53,6 +53,18 @@ Manipal Institute of Technology
 
 <span text-base>(also see <a href="https://scholar.google.com/citations?user=U5Qor54AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>)</span>
 
+:::paper[/img/my_imgs/revelio.png]
+**Revelio: Interpreting and leveraging semantic information in diffusion models**  
+Dahye Kim, <u>Xavier Thomas</u>, Deepti Ghadiyaram    
+Preprint, 2024  
+<a href="https://github.com/revelio-diffusion/revelio" style="color: black;">
+  <i class="fab fa-github" style="color: black;"></i> Code
+</a> $|$ 
+<a href="https://www.arxiv.org/abs/2411.16725" style="color: black;">
+  <i class="fas fa-file-alt" style="color: white; text-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black;"></i> Paper
+</a>
+:::
+
 :::paper[/img/my_imgs/MAVIC.png]
 **MAViC: Multimodal Active Learning for Video Captioning**  
 Gyanendra Das, <u>Xavier Thomas</u>, Anant Raj, Vikram Gupta  

@@ -2,6 +2,12 @@
 layout: ../layouts/Projects.astro
 projects:
   Code:
+    - name: revelio
+      link: https://github.com/revelio-diffusion/revelio
+      desc: Code for "Revelio, Interpreting and Leveraging Visual Semantic Information in Diffusion Models"
+      tech:
+        - i-logos:python
+      repo: revelio-diffusion/revelio
     - name: edubotics-core
       link: https://github.com/edubotics-ai/edubotics-core
       desc: edubotics-core is an open-source Python library that allows developers to build LLM-based chatbots efficiently. It provides a comprehensive set of core modules for vector storage, retrieval, processing, with more to come.
@@ -27,6 +33,18 @@ projects:
         - i-logos:python
       repo: serre-lab/diversity_vs_recognizability
 ---
+
+## Revelio: Interpreting and leveraging semantic information in diffusion models
+
+We study how rich visual semantic information is represented within various layers and denoising timesteps of different diffusion architectures. We uncover monosemantic interpretable features by leveraging k-sparse autoen- coders (k-SAE). We substantiate our mechanistic interpretations via transfer learning using light-weight classifiers on off-the-shelf diffusion models’ features. On 4 datasets, we demonstrate the effectiveness of diffusion features for representation learning. We provide in-depth analysis of how different diffusion architectures, pre-training datasets, and language model conditioning impacts visual representation granularity, inductive biases, and transfer learning capabilities. Our work is a critical step towards deepening interpretability of black-box diffusion models.
+
+<img src="/img/my_imgs/revelio.png" class="paper-images"/>
+
+Full Paper: [https://www.arxiv.org/abs/2411.16725](https://www.arxiv.org/abs/2411.16725) 
+
+Code: [https://github.com/revelio-diffusion/revelio](https://github.com/revelio-diffusion/revelio)
+
+Webpage: [https://revelio-diffusion.github.io/revelio/](https://revelio-diffusion.github.io/revelio/)
 
 ## edubotics-core: An Open-Source Python Library for Building LLM-based Applications
 
