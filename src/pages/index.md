@@ -22,8 +22,6 @@ socials:
 
 At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io) and am working on my MS Thesis focused on Vision-Language Models. 
 
-🔍 **Currently Seeking:** Full-time opportunities in Machine Learning/Computer Vision Research/Engineering roles for Summer 2025.
-
 <a href="/files/cv/Xavier_Thomas_CV.pdf" style="color: black;">
   <i class="fas fa-file-alt" style="color: black;"></i> Curriculum Vitae
 </a> / 
