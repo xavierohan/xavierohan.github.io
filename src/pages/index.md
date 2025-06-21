@@ -4,8 +4,6 @@ name: Xavier Thomas
 subname: (Rohan)
 avatar: img/my_imgs/prof_pic.jpg
 socials:
-  - icon: i-academicons:cv
-    link: /files/cv/Xavier_Thomas_CV.pdf
   - icon: "fas fa-envelope"
     link: "mailto:xavierohan1@gmail.com"
   - icon: "fab fa-github"
