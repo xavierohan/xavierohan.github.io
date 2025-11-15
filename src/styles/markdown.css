@@ -370,7 +370,6 @@ html.dark .prose .experience-item {
   @apply text-c-light mt-2.5;
   font-size: 0.9em;
   line-height: 1.7;
-  max-width: 65ch;
 }
 
 .prose .experience-bullets {
