@@ -3,6 +3,47 @@
   font-size: 0.95em;
 }
 
+.prose h2 {
+  @apply mt-16 mb-8 text-2xl font-bold text-c-dark;
+  letter-spacing: -0.02em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+html.dark .prose h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.prose h2:first-child {
+  @apply mt-0;
+}
+
+/** Section Containers for Cognitive Load Reduction **/
+
+.prose .section-container {
+  @apply mb-12 p-6 rounded-lg;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+html.dark .prose .section-container {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.prose .section-container:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+html.dark .prose .section-container:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.prose h2 + .section-container {
+  @apply mt-4;
+}
+
 .prose ul,
 .prose li p {
   @apply !m-0;
@@ -248,7 +289,19 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
 /** Minimalist Experience & Education Styles **/
 
 .prose .experience-item {
-  @apply flex py-5 space-x-5 border-b border-c-dark;
+  @apply flex py-4 space-x-5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  animation: fadeIn 0.4s ease-out;
+}
+
+html.dark .prose .experience-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.prose .experience-item:hover {
+  @apply opacity-90;
+  transform: translateX(2px);
 }
 
 .prose .experience-item:last-child {
@@ -263,10 +316,21 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
   @apply max-w-full max-h-full object-contain;
   width: 100%;
   height: 100%;
+  transition: transform 0.2s ease;
+}
+
+.prose .experience-item:hover .experience-image img {
+  transform: scale(1.05);
 }
 
 .prose .experience-content {
   @apply flex-1 space-y-1.5;
+  max-width: 100%;
+}
+
+.prose .publication-content {
+  @apply flex-1;
+  max-width: 100%;
 }
 
 .prose .experience-title {
@@ -303,9 +367,10 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
 }
 
 .prose .experience-description {
-  @apply text-c-light mt-2;
+  @apply text-c-light mt-2.5;
   font-size: 0.9em;
-  line-height: 1.6;
+  line-height: 1.7;
+  max-width: 65ch;
 }
 
 .prose .experience-bullets {
@@ -336,7 +401,19 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
 /** Minimalist Publication Styles **/
 
 .prose .publication-item {
-  @apply flex py-5 space-x-5 border-b border-c-dark;
+  @apply flex py-4 space-x-5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  animation: fadeIn 0.4s ease-out;
+}
+
+html.dark .prose .publication-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.prose .publication-item:hover {
+  @apply opacity-90;
+  transform: translateX(2px);
 }
 
 .prose .publication-item:last-of-type {
@@ -357,29 +434,41 @@ html.dark .prose .publication-image {
   height: 100%;
 }
 
-.prose .publication-content {
-  @apply flex-1;
-}
-
 .prose .publication-title {
-  @apply font-semibold text-base text-c-dark mb-1;
+  @apply font-semibold text-base text-c-dark mb-1.5;
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
 }
 
 .prose .publication-authors {
-  @apply text-c-light mb-1;
+  @apply text-c-light mb-1.5;
   font-size: 0.95em;
+  line-height: 1.5;
 }
 
 .prose .publication-meta {
-  @apply text-c-lighter mb-2;
+  @apply text-c-lighter mb-0;
   font-size: 0.9em;
+  line-height: 1.6;
 }
 
 .prose .publication-meta a {
   @apply text-c-active no-underline hover:underline;
   font-size: 0.9em;
+  transition: opacity 0.2s ease;
+}
+
+.prose .publication-meta a:hover {
+  opacity: 0.8;
+}
+
+.prose .experience-advisor a {
+  transition: opacity 0.2s ease;
+}
+
+.prose .experience-advisor a:hover {
+  opacity: 0.8;
 }
 
 .prose .publication-note {
@@ -391,3 +480,31 @@ html.dark .prose .publication-image {
   @apply text-c-active no-underline hover:underline;
   font-size: 0.85em;
 }
+
+/** Animations **/
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.prose .experience-item:nth-child(1) { animation-delay: 0.05s; }
+.prose .experience-item:nth-child(2) { animation-delay: 0.1s; }
+.prose .experience-item:nth-child(3) { animation-delay: 0.15s; }
+.prose .experience-item:nth-child(4) { animation-delay: 0.2s; }
+.prose .experience-item:nth-child(5) { animation-delay: 0.25s; }
+.prose .experience-item:nth-child(6) { animation-delay: 0.3s; }
+
+.prose .publication-item:nth-child(1) { animation-delay: 0.05s; }
+.prose .publication-item:nth-child(2) { animation-delay: 0.1s; }
+.prose .publication-item:nth-child(3) { animation-delay: 0.15s; }
+.prose .publication-item:nth-child(4) { animation-delay: 0.2s; }
+.prose .publication-item:nth-child(5) { animation-delay: 0.25s; }
+.prose .publication-item:nth-child(6) { animation-delay: 0.3s; }
+.prose .publication-item:nth-child(7) { animation-delay: 0.35s; }

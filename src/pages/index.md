@@ -28,6 +28,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 
 ## Education
 
+<div class="section-container">
 <div class="experience-item">
   <div class="experience-content">
     <div class="experience-title">Ph.D. in Computer Science <span class="experience-date-inline">2025 – Present</span></div>
@@ -42,9 +43,11 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
     <div class="experience-org">Manipal Institute of Technology <span class="experience-subtitle-inline">· Minor in Computational Intelligence</span></div>
   </div>
 </div>
+</div>
 
 ## Research
 
+<div class="section-container">
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">Generative Action Tell-Tales: Assessing human motion in synthesized videos</div>
@@ -102,9 +105,11 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 </div>
 
 For more see <a href="https://scholar.google.com/citations?user=U5Qor54AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+</div>
 
 ## Experience
 
+<div class="section-container">
 <div class="experience-item">
   <div class="experience-image">
     <img src="/img/my_imgs/bu.png" alt="Boston University">
@@ -197,4 +202,5 @@ For more see <a href="https://scholar.google.com/citations?user=U5Qor54AAAAJ" ta
     </div>
     <div class="experience-advisor">Advisor: <a href="https://www.cs.toronto.edu/~huang/">Sheldon Huang</a></div>
   </div>
+</div>
 </div>
