@@ -3,28 +3,50 @@ import { SITE } from "@config";
 import Layout from "@layouts/Layout.astro";
 ---
 
-<Layout title={`404 Not Found - ${SITE.title}`}>
-  <div class="font-bold absolute h-fit inset-0 m-auto text-center">
-    <p id="emoji" text="5xl"></p>
-    <h1 text-2xl mt-5 mb-2>404 - How did we get here?</h1>
-    <a href="/" class="text-2xl hover:underline"> Home</a>
+<Layout title={`Error - ${SITE.title}`}>
+  <div class="font-bold absolute h-fit inset-0 m-auto text-center" style="min-height: 60vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <p id="emoji" text="5xl" style="font-size: 4rem; margin-bottom: 1rem;"></p>
+    <h1 text-2xl mt-5 mb-4>How did we get here....</h1>
+    <div class="flex flex-col sm:flex-row gap-4 items-center justify-center mt-6">
+      <a href="/" class="text-xl hover:underline px-6 py-2 border border-c-dark rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+        Go back to Home
+      </a>
+      <button onclick="window.history.back()" class="text-xl hover:underline px-6 py-2 border border-c-dark rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors bg-transparent cursor-pointer">
+        Go back
+      </button>
+    </div>
   </div>
 </Layout>
 
 <script>
   const emojiArray = [
-    "\\(o_o)/",
-    "(o^^)o",
-    "(˚Δ˚)b",
-    "(^-^*)",
-    "(^_^)b",
-    "(╯‵□′)╯",
-    "(='X'=)",
-    "(>_<)",
-    "\\(°ˊДˋ°)/",
-    "ㄟ(▔▽▔)ㄏ"
+    "🤔", "😅", "😕", "🤷", "🙃", "😬", "😳", "🤨", 
+    "😶", "😐", "😑", "😯", "😮", "😲", "😱", "😵",
+    "💭", "🧐", "🤯", "😇", "😈", "👻", "🤖", "👽",
+    "🎭", "🎪", "🎨", "🎯", "🎲", "🎰", "🃏", "🀄",
+    "🌚", "🌝", "🌛", "🌜", "🌞", "⭐", "🌟", "✨",
+    "💫", "💥", "💢", "💤", "💨", "🔥", "💧", "💦"
   ];
 
   const emoji = document.querySelector("#emoji");
-  if (emoji) emoji.innerHTML = emojiArray[Math.floor(Math.random() * emojiArray.length)];
+  let currentIndex = Math.floor(Math.random() * emojiArray.length);
+  
+  function updateEmoji() {
+    if (emoji) {
+      // Pick a different emoji
+      let newIndex;
+      do {
+        newIndex = Math.floor(Math.random() * emojiArray.length);
+      } while (newIndex === currentIndex && emojiArray.length > 1);
+      
+      currentIndex = newIndex;
+      emoji.textContent = emojiArray[currentIndex];
+    }
+  }
+  
+  // Update immediately
+  updateEmoji();
+  
+  // Update every 2 seconds
+  setInterval(updateEmoji, 2000);
 </script>

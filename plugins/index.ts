@@ -7,7 +7,6 @@ import { remarkCodeBlock } from "./codeBlock";
 import { remarkContainer } from "./container";
 import rehypeExternalLinks from "rehype-external-links";
 import rehypeKatex from "rehype-katex";
-import rehypePrettyCode from "rehype-pretty-code";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import { rehypeFixHeadingIds } from "./fixHeadingIds";
@@ -24,15 +23,6 @@ export const remarkPlugins: RemarkPlugins = [
 export const rehypePlugins: RehypePlugins = [
   rehypeKatex,
   [rehypeExternalLinks, { target: "_blank", rel: "noopener noreferrer" }],
-  [
-    rehypePrettyCode,
-    {
-      theme: {
-        light: "github-light",
-        dark: "github-dark"
-      }
-    }
-  ],
   rehypeHeadingIds,
   rehypeFixHeadingIds,
   [
