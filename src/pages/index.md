@@ -140,7 +140,7 @@ For more see <a href="https://scholar.google.com/citations?user=U5Qor54AAAAJ" ta
     <div class="experience-description">
       Integrated advanced computer vision pipelines into production, improving content classification and moderation capabilities on ShareChat (180M+ MAUs) and Moj (160M+ MAUs). Contributed to <strong>MAViC, a Multimodal Active Learning algorithm for Video Captioning</strong> that reduces annotation effort by integrating semantic similarity and uncertainty from visual and language modalities.
     </div>
-    <div class="experience-advisor">Manager: <a href="https://www.linkedin.com/in/iamvikramgupta/?originalSubdomain=in">Vikram</a> | Advisors: <a href="https://anantrajml.github.io/">Prof. Anant Raj</a>, <a href="https://mbzuai.ac.ae/study/faculty/hisham-cholakkal/">Prof. Hisham Cholakkal</a></div>
+    <div class="experience-advisor">Manager: <a href="https://www.linkedin.com/in/iamvikramgupta/?originalSubdomain=in">Vikram Gupta</a> | Advisors: <a href="https://anantrajml.github.io/">Prof. Anant Raj</a>, <a href="https://mbzuai.ac.ae/study/faculty/hisham-cholakkal/">Prof. Hisham Cholakkal</a></div>
   </div>
 </div>
 
