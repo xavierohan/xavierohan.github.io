@@ -134,7 +134,7 @@ For more see <a href="https://scholar.google.com/citations?user=U5Qor54AAAAJ" ta
     <img src="/img/my_imgs/sharechatlogo.png" alt="ShareChat">
   </div>
   <div class="experience-content">
-    <div class="experience-title">Machine Learning Engineer</div>
+    <div class="experience-title">Machine Learning Engineer Intern</div>
     <div class="experience-org">ShareChat | Content and User Understanding Team</div>
     <div class="experience-date">Jul 2022 – Jun 2023</div>
     <div class="experience-description">

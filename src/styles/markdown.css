@@ -1,20 +1,18 @@
 .prose p {
-  @apply leading-[1.65];
+  @apply leading-[1.55];
   font-size: 0.95em;
 }
 
 .prose h2 {
   @apply mt-16 mb-8 text-2xl font-bold text-c-dark;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.02em;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  transition: border-color 0.2s ease;
 }
 
 html.dark .prose h2 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 
 .prose h2:first-child {
   @apply mt-0;
@@ -24,24 +22,22 @@ html.dark .prose h2 {
 
 .prose .section-container {
   @apply mb-12 p-6 rounded-lg;
-  background: rgba(0, 0, 0, 0.01);
-  border: 1px solid rgba(0, 0, 0, 0.03);
-  transition: box-shadow 0.3s ease, transform 0.2s ease, border-color 0.2s ease;
-  position: relative;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
 
 html.dark .prose .section-container {
-  background: rgba(255, 255, 255, 0.01);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .prose .section-container:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.04);
-  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 html.dark .prose .section-container:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .prose h2 + .section-container {
@@ -57,20 +53,7 @@ html.dark .prose .section-container:hover {
 .prose a {
   @apply no-underline hover:underline text-c-active font-normal;
   font-size: 0.95em;
-  transition: color 0.2s ease, opacity 0.2s ease;
-  position: relative;
 }
-
-.prose a:focus {
-  outline: 2px solid rgba(23, 114, 208, 0.5);
-  outline-offset: 2px;
-  border-radius: 2px;
-}
-
-html.dark .prose a:focus {
-  outline-color: rgba(41, 188, 136, 0.5);
-}
-
 
 .prose img,
 .prose video {
@@ -308,13 +291,8 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
 .prose .experience-item {
   @apply flex py-4 space-x-5;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  transition: opacity 0.2s ease, transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
-  animation: fadeIn 0.5s ease-out;
-  border-radius: 4px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  animation: fadeIn 0.4s ease-out;
 }
 
 html.dark .prose .experience-item {
@@ -322,8 +300,8 @@ html.dark .prose .experience-item {
 }
 
 .prose .experience-item:hover {
-  @apply opacity-100;
-  transform: translateX(4px);
+  @apply opacity-90;
+  transform: translateX(2px);
 }
 
 .prose .experience-item:last-child {
@@ -358,11 +336,7 @@ html.dark .prose .experience-item {
 .prose .experience-title {
   @apply font-semibold text-base text-c-dark;
   font-size: 1em;
-  line-height: 1.6;
-  letter-spacing: -0.015em;
-  transition: color 0.2s ease;
 }
-
 
 .prose .experience-org {
   @apply text-c-light;
@@ -428,13 +402,8 @@ html.dark .prose .experience-item {
 .prose .publication-item {
   @apply flex py-4 space-x-5;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  transition: opacity 0.2s ease, transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
-  animation: fadeIn 0.5s ease-out;
-  border-radius: 4px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  animation: fadeIn 0.4s ease-out;
 }
 
 html.dark .prose .publication-item {
@@ -442,8 +411,8 @@ html.dark .prose .publication-item {
 }
 
 .prose .publication-item:hover {
-  @apply opacity-100;
-  transform: translateX(4px);
+  @apply opacity-90;
+  transform: translateX(2px);
 }
 
 .prose .publication-item:last-of-type {
@@ -467,11 +436,9 @@ html.dark .prose .publication-image {
 .prose .publication-title {
   @apply font-semibold text-base text-c-dark mb-1.5;
   font-size: 1em;
-  line-height: 1.6;
-  letter-spacing: -0.015em;
-  transition: color 0.2s ease;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
 }
-
 
 .prose .publication-authors {
   @apply text-c-light mb-1.5;
@@ -560,6 +527,87 @@ html.dark .prose .publication-meta a[href^="http"]::before {
   transform: translateX(-50%) translateY(2px);
 }
 
+/* Full Page Preview Popup */
+.prose .link-preview-container {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-12px);
+  width: 600px;
+  max-width: 90vw;
+  height: 400px;
+  max-height: 50vh;
+  background: #ffffff !important;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1002;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+html.dark .prose .link-preview-container {
+  background: #1c1e20 !important;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.prose .link-preview-container[style*="opacity: 1"] {
+  opacity: 1 !important;
+  background: #ffffff !important;
+}
+
+html.dark .prose .link-preview-container[style*="opacity: 1"] {
+  background: #1c1e20 !important;
+}
+
+.prose .publication-meta a[href^="http"]:hover + .link-preview-container,
+.prose .publication-meta a[href^="http"]:hover ~ .link-preview-container {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-8px);
+  pointer-events: auto;
+}
+
+.prose .link-preview-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  overflow: auto;
+}
+
+.prose .link-preview-container .preview-header {
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.05) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.85em;
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+html.dark .prose .link-preview-container .preview-header {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.prose .link-preview-container .preview-header::before {
+  content: "🔗";
+  font-size: 1em;
+}
+
+.prose .link-preview-container .preview-content {
+  height: calc(100% - 36px);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
 .prose .experience-advisor a {
   transition: opacity 0.2s ease;
@@ -584,22 +632,11 @@ html.dark .prose .publication-meta a[href^="http"]::before {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(8px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateX(-8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
   }
 }
 

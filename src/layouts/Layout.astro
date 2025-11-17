@@ -84,3 +84,66 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   </body>
 </html>
 
+<script>
+  // Link preview functionality
+  document.addEventListener('DOMContentLoaded', () => {
+    const links = document.querySelectorAll('.prose .publication-meta a[href^="http"]');
+    
+    links.forEach(link => {
+      const href = link.getAttribute('href');
+      if (!href || href === '#') return;
+      
+      // Create preview container
+      const previewContainer = document.createElement('div');
+      previewContainer.className = 'link-preview-container';
+      
+      const previewHeader = document.createElement('div');
+      previewHeader.className = 'preview-header';
+      previewHeader.textContent = href;
+      
+      const previewContent = document.createElement('div');
+      previewContent.className = 'preview-content';
+      
+      const iframe = document.createElement('iframe');
+      iframe.src = href;
+      iframe.loading = 'lazy';
+      iframe.setAttribute('sandbox', 'allow-same-origin allow-scripts allow-popups allow-forms allow-top-navigation');
+      iframe.style.overflow = 'auto';
+      
+      previewContent.appendChild(iframe);
+      previewContainer.appendChild(previewHeader);
+      previewContainer.appendChild(previewContent);
+      
+      // Insert after the link
+      link.parentNode.insertBefore(previewContainer, link.nextSibling);
+      
+      // Show/hide on hover - keep visible when hovering over popup too
+      let hoverTimeout;
+      let hideTimeout;
+      
+      const showPreview = () => {
+        clearTimeout(hideTimeout);
+        clearTimeout(hoverTimeout);
+        hoverTimeout = setTimeout(() => {
+          previewContainer.style.opacity = '1';
+          previewContainer.style.pointerEvents = 'auto';
+          previewContainer.style.background = document.documentElement.classList.contains('dark') ? '#1c1e20' : '#ffffff';
+        }, 300); // Small delay to avoid flickering
+      };
+      
+      const hidePreview = () => {
+        clearTimeout(hoverTimeout);
+        hideTimeout = setTimeout(() => {
+          previewContainer.style.opacity = '0';
+          previewContainer.style.pointerEvents = 'none';
+        }, 100); // Small delay to allow moving to popup
+      };
+      
+      link.addEventListener('mouseenter', showPreview);
+      link.addEventListener('mouseleave', hidePreview);
+      
+      previewContainer.addEventListener('mouseenter', showPreview);
+      previewContainer.addEventListener('mouseleave', hidePreview);
+    });
+  });
+</script>
