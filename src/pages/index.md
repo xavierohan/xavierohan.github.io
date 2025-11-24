@@ -56,7 +56,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   <div class="publication-content">
     <div class="publication-title">Generative Action Tell-Tales: Assessing human motion in synthesized videos</div>
     <div class="publication-authors"><u>Xavier Thomas</u>, Youngsun Lim, Ananya Srinivasan, Audrey Zheng, Deepti Ghadiyaram</div>
-    <div class="publication-meta">Under Review · <a href="#">Code</a> · <a href="https://arxiv.org/abs/2112.04766">Paper</a></div>
+    <div class="publication-meta">Under Review</a></div>
   </div>
 </div>
 
