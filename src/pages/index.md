@@ -18,8 +18,12 @@ socials:
 
 👋 Hi! I'm currently a Grad Student at [Boston University](https://www.bu.edu/cs/). I completed my undergrad at [Manipal Institute of Technology, India](https://manipal.edu/mit.html), and had developed a keen interest in all things ML during my first year and was fortunate to gain research experience along the way. Prior to joining BU, I worked with the Content and User Understanding team at ShareChat, and was fortunate to work on projects with the Serre Lab (Brown University), Human Dynamics Group (MIT Media Lab, Massachusetts Institute of Technology), ETS, Montreal and FOR.ai (now Cohere for AI).
 
-At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), and I’m currently exploring topics in computer vision, with a broad interest in representation learning and generative models.
+At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), and I'm currently exploring topics in computer vision, with a broad interest in representation learning and generative models.
  
+<a href="/files/cv/Xavier_Thomas_CV_PhD-14.pdf" target="_blank" style="color: black;">
+  <i class="fas fa-file-pdf" style="color: black;"></i> CV
+</a>
+<span style="color: black; margin: 0 0.5rem;">/</span>
 <a href="mailto:xavierohan1@gmail.com" style="color: black;">
   <i class="fas fa-envelope" style="color: black;"></i> Email Me
 </a>
@@ -134,7 +138,7 @@ For more see <a href="https://scholar.google.com/citations?user=U5Qor54AAAAJ" ta
     <img src="/img/my_imgs/sharechatlogo.png" alt="ShareChat">
   </div>
   <div class="experience-content">
-    <div class="experience-title">Machine Learning Engineer Intern</div>
+    <div class="experience-title">Machine Learning Engineer</div>
     <div class="experience-org">ShareChat | Content and User Understanding Team</div>
     <div class="experience-date">Jul 2022 – Jun 2023</div>
     <div class="experience-description">

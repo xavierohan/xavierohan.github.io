@@ -22,13 +22,13 @@ html.dark .prose h2 {
 
 .prose .section-container {
   @apply mb-12 p-6 rounded-lg;
-  background: rgba(0, 0, 0, 0.02);
+  background: transparent;
   border: 1px solid rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
 
 html.dark .prose .section-container {
-  background: rgba(255, 255, 255, 0.02);
+  background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
