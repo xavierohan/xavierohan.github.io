@@ -64,7 +64,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   <div class="publication-content">
     <div class="publication-title">Generative Action Tell-Tales: Assessing human motion in synthesized videos</div>
     <div class="publication-authors"><u>Xavier Thomas</u>, Youngsun Lim, Ananya Srinivasan, Audrey Zheng, Deepti Ghadiyaram</div>
-    <div class="publication-meta">New England Computer Vision (NECV) Workshop (Oral), 2025· <a href="https://xthomasbu.github.io/video-gen-evals/">Webpage</a></div>
+    <div class="publication-meta">New England Computer Vision (NECV) Workshop (Oral), 2025 · <a href="https://xthomasbu.github.io/video-gen-evals/">Webpage</a></div>
   </div>
 </div>
 
@@ -72,7 +72,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   <div class="publication-content">
     <div class="publication-title">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</div>
     <div class="publication-authors"><u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
-    <div class="publication-meta">International Conference on Computer Vision (ICCV), 2025 · <a href="https://xthomasbu.github.io/GUIDE/">Code</a> · <a href="https://arxiv.org/abs/2503.06698">Paper</a></div>
+    <div class="publication-meta">International Conference on Computer Vision (ICCV), 2025 · <a href="https://xthomasbu.github.io/GUIDE/">Webpage</a> · <a href="https://github.com/XThomasBU/GUIDE">Code</a> · <a href="https://arxiv.org/abs/2503.06698">Paper</a></div>
   </div>
 </div>
 
@@ -80,7 +80,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   <div class="publication-content">
     <div class="publication-title">Revelio: Interpreting and leveraging semantic information in diffusion models</div>
     <div class="publication-authors">Dahye Kim*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
-    <div class="publication-meta">International Conference on Computer Vision (ICCV), 2025 · <a href="https://github.com/revelio-diffusion/revelio">Code</a> · <a href="https://www.arxiv.org/abs/2411.16725">Paper</a></div>
+    <div class="publication-meta">International Conference on Computer Vision (ICCV), 2025 · <a href="https://revelio-diffusion.github.io/revelio/">Webpage</a> · <a href="https://github.com/revelio-diffusion/revelio">Code</a> · <a href="https://www.arxiv.org/abs/2411.16725">Paper</a></div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   <div class="publication-content">
     <div class="publication-title">Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models</div>
     <div class="publication-authors">Ketan Suhaas Saichandran*, <u>Xavier Thomas</u>*, Prakhar Kaushik, Deepti Ghadiyaram</div>
-    <div class="publication-meta">AI4CC Workshop, IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025 (oral) · <a href="https://ketansuhaas.github.io/scope-diffusers">Code</a> · <a href="https://arxiv.org/abs/2503.17794">Paper</a></div>
+    <div class="publication-meta">AI4CC Workshop, IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025 (oral) · <a href="https://ketansuhaas.github.io/scope-diffusers">Webpage</a> · <a href="https://github.com/Ketansuhaas/scope-diffusers">Code</a> · <a href="https://arxiv.org/abs/2503.17794">Paper</a></div>
   </div>
 </div>
 
