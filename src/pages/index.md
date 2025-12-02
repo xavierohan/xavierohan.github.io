@@ -64,7 +64,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   <div class="publication-content">
     <div class="publication-title">Generative Action Tell-Tales: Assessing human motion in synthesized videos</div>
     <div class="publication-authors"><u>Xavier Thomas</u>, Youngsun Lim, Ananya Srinivasan, Audrey Zheng, Deepti Ghadiyaram</div>
-    <div class="publication-meta">New England Computer Vision (NECV) Workshop (Oral), 2025 · <a href="https://xthomasbu.github.io/video-gen-evals/">Webpage</a></div>
+    <div class="publication-meta">New England Computer Vision (NECV) Workshop (Oral), 2025 · <a href="https://xthomasbu.github.io/video-gen-evals/">Webpage</a> · <a href="https://arxiv.org/abs/2512.01803">Paper</a></div>
   </div>
 </div>
 
