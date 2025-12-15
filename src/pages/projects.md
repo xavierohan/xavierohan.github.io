@@ -34,17 +34,113 @@ projects:
       repo: serre-lab/diversity_vs_recognizability
 ---
 
-## Revelio: Interpreting and leveraging semantic information in diffusion models
+### Generative Action Tell-Tales: Assessing human motion in synthesized videos
 
-We study how rich visual semantic information is represented within various layers and denoising timesteps of different diffusion architectures. We uncover monosemantic interpretable features by leveraging k-sparse autoen- coders (k-SAE). We substantiate our mechanistic interpretations via transfer learning using light-weight classifiers on off-the-shelf diffusion models’ features. On 4 datasets, we demonstrate the effectiveness of diffusion features for representation learning. We provide in-depth analysis of how different diffusion architectures, pre-training datasets, and language model conditioning impacts visual representation granularity, inductive biases, and transfer learning capabilities. Our work is a critical step towards deepening interpretability of black-box diffusion models.
+<div class="webpage-embed-container">
+  <div class="webpage-embed-header">
+    <span class="webpage-embed-title">Generative Action Tell-Tales: Assessing human motion in synthesized videos</span>
+    <a 
+      href="https://xthomasbu.github.io/video-gen-evals/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="webpage-embed-link"
+      title="Open in new tab"
+    >
+      <span class="webpage-embed-icon">↗</span>
+    </a>
+  </div>
+  <div class="webpage-embed-wrapper">
+    <iframe
+      src="https://xthomasbu.github.io/video-gen-evals/"
+      class="webpage-embed-iframe"
+      title="Generative Action Tell-Tales: Assessing human motion in synthesized videos"
+      loading="lazy"
+      allow="fullscreen"
+      sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+    ></iframe>
+  </div>
+</div>
 
-<img src="/img/my_imgs/revelio.png" class="paper-images"/>
+### What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization
 
-Full Paper: [https://www.arxiv.org/abs/2411.16725](https://www.arxiv.org/abs/2411.16725) 
+<div class="webpage-embed-container">
+  <div class="webpage-embed-header">
+    <span class="webpage-embed-title">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</span>
+    <a 
+      href="https://xthomasbu.github.io/GUIDE/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="webpage-embed-link"
+      title="Open in new tab"
+    >
+      <span class="webpage-embed-icon">↗</span>
+    </a>
+  </div>
+  <div class="webpage-embed-wrapper">
+    <iframe
+      src="https://xthomasbu.github.io/GUIDE/"
+      class="webpage-embed-iframe"
+      title="What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization"
+      loading="lazy"
+      allow="fullscreen"
+      sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+    ></iframe>
+  </div>
+</div>
 
-Code: [https://github.com/revelio-diffusion/revelio](https://github.com/revelio-diffusion/revelio)
+### Revelio: Interpreting and leveraging semantic information in diffusion models
 
-Webpage: [https://revelio-diffusion.github.io/revelio/](https://revelio-diffusion.github.io/revelio/)
+<div class="webpage-embed-container">
+  <div class="webpage-embed-header">
+    <span class="webpage-embed-title">Revelio: Interpreting and leveraging semantic information in diffusion models</span>
+    <a 
+      href="https://revelio-diffusion.github.io/revelio/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="webpage-embed-link"
+      title="Open in new tab"
+    >
+      <span class="webpage-embed-icon">↗</span>
+    </a>
+  </div>
+  <div class="webpage-embed-wrapper">
+    <iframe
+      src="https://revelio-diffusion.github.io/revelio/"
+      class="webpage-embed-iframe"
+      title="Revelio: Interpreting and leveraging semantic information in diffusion models"
+      loading="lazy"
+      allow="fullscreen"
+      sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+    ></iframe>
+  </div>
+</div>
+
+### Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models
+
+<div class="webpage-embed-container">
+  <div class="webpage-embed-header">
+    <span class="webpage-embed-title">Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models</span>
+    <a 
+      href="https://ketansuhaas.github.io/scope-diffusers" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="webpage-embed-link"
+      title="Open in new tab"
+    >
+      <span class="webpage-embed-icon">↗</span>
+    </a>
+  </div>
+  <div class="webpage-embed-wrapper">
+    <iframe
+      src="https://ketansuhaas.github.io/scope-diffusers"
+      class="webpage-embed-iframe"
+      title="Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models"
+      loading="lazy"
+      allow="fullscreen"
+      sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+    ></iframe>
+  </div>
+</div>
 
 ## edubotics-core: An Open-Source Python Library for Building LLM-based Applications
 
@@ -103,4 +199,3 @@ Robust generalization to new concepts has long remained a distinctive feature of
 Full Paper: [https://arxiv.org/abs/2205.10370](https://arxiv.org/abs/2205.10370) 
 
 Code: [https://github.com/serre-lab/diversity_vs_recognizability](https://github.com/serre-lab/diversity_vs_recognizability)
-

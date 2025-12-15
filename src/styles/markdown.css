@@ -22,6 +22,42 @@ html.dark .prose h2 {
   @apply mt-0;
 }
 
+.prose h3 {
+  @apply mt-24 mb-10 text-2xl font-medium text-c-dark;
+  letter-spacing: -0.04em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+  position: relative;
+}
+
+html.dark .prose h3 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.prose h3:first-child {
+  @apply mt-0;
+}
+
+.prose h3:not(:first-child)::before {
+  content: '';
+  position: absolute;
+  top: -2rem;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+html.dark .prose h3:not(:first-child)::before {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.prose h2 + h3 {
+  @apply mt-24;
+}
+
 /** Section Containers for Cognitive Load Reduction **/
 
 .prose .section-container {
@@ -556,3 +592,97 @@ html.dark .prose .publication-image {
 .prose .publication-item:nth-child(6) { animation-delay: 0.18s; }
 .prose .publication-item:nth-child(7) { animation-delay: 0.21s; }
 .prose .publication-item:nth-child(8) { animation-delay: 0.24s; }
+
+/** Webpage Embeds **/
+
+.prose .webpage-embeds-section {
+  @apply space-y-8;
+}
+
+.prose h3 + .webpage-embed-container {
+  @apply mt-6;
+}
+
+.prose .webpage-embed-container {
+  @apply w-full rounded-xl overflow-hidden mb-24;
+  background: rgba(0, 0, 0, 0.015);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html.dark .prose .webpage-embed-container {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.prose .webpage-embed-container:hover {
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+html.dark .prose .webpage-embed-container:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.prose .webpage-embed-header {
+  @apply flex items-center justify-between px-5 py-3.5;
+  background: rgba(0, 0, 0, 0.01);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+html.dark .prose .webpage-embed-header {
+  background: rgba(255, 255, 255, 0.01);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.prose .webpage-embed-title {
+  @apply text-sm font-medium text-c-dark;
+  letter-spacing: -0.012em;
+  flex: 1;
+  padding-right: 1rem;
+  line-height: 1.5;
+}
+
+.prose .webpage-embed-link {
+  @apply flex items-center justify-center w-6 h-6 rounded;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+html.dark .prose .webpage-embed-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.prose .webpage-embed-link:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+html.dark .prose .webpage-embed-link:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.prose .webpage-embed-icon {
+  @apply text-xs;
+  font-size: 0.875rem;
+}
+
+.prose .webpage-embed-wrapper {
+  @apply relative w-full;
+  aspect-ratio: 4 / 3;
+  min-height: 600px;
+  background: #f5f5f5;
+}
+
+html.dark .prose .webpage-embed-wrapper {
+  background: #1a1a1a;
+}
+
+.prose .webpage-embed-iframe {
+  @apply w-full h-full border-0;
+  display: block;
+}

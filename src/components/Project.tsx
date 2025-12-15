@@ -16,30 +16,30 @@ export const Project: Component<{ project: ProjectItem }> = (props) => {
 
   return (
     <a
-      class="relative hstack space-x-5 p-4 !no-underline !text-c"
-      border="~ c hover:transparent"
-      bg="hover:gray-100 dark:hover:gray-600"
+      class="relative hstack space-x-5 p-5 !no-underline !text-c rounded-lg transition-all duration-200"
+      border="~ c/30 hover:border-c/50"
+      bg="hover:bg-gray-50/50 dark:hover:bg-gray-800/30"
       href={props.project.link}
       title={props.project.name}
       target="_blank"
       rel="noopener noreferrer"
     >
       <div class="flex-auto">
-        <div class="hstack flex-wrap">
-          <div whitespace-nowrap mr-3>{props.project.name}</div>
+        <div class="hstack flex-wrap items-center">
+          <div whitespace-nowrap mr-3 class="font-medium text-c-dark">{props.project.name}</div>
           <div hstack space-x-2>
             {props.project.tech &&
-              props.project.tech.map((icon) => <span class={`text-xs ${icon}`} />)}
+              props.project.tech.map((icon) => <span class={`text-sm ${icon} opacity-70`} />)}
 
             {star() && (
-              <span hstack space-x-1>
-                <span i-noto-v1:star text-xs />
-                <span class="text-sm mt-0.5">{star()}</span>
+              <span hstack space-x-1 class="text-xs text-c-lighter">
+                <span i-noto-v1:star />
+                <span class="mt-0.5">{star()}</span>
               </span>
             )}
           </div>
         </div>
-        <div mt-1 text="sm c-lighter" innerHTML={props.project.desc} />
+        <div mt-2 text="sm c-light leading-relaxed" innerHTML={props.project.desc} />
       </div>
 
       {/* <div pt-2 text="3xl c-lighter">

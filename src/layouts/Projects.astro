@@ -14,13 +14,11 @@ const { projects } = Astro.props.frontmatter;
 ---
 
 <Layout title={`Projects - ${SITE.title}`} activePage="projects">
-  <h1>Projects</h1>
-  <slot />
   {
     Object.keys(projects).map((key) => (
       <>
-        <h3>{key}</h3>
-        <div grid="~ cols-1 sm:cols-2 gap-2" py-2>
+        <h1 class="code-main-heading">{key}</h1>
+        <div grid="~ cols-1 sm:cols-2 gap-3" py-2 class="code-projects-grid">
           {projects[key].map((project) => (
             <Project client:load project={project} />
           ))}
@@ -28,4 +26,30 @@ const { projects } = Astro.props.frontmatter;
       </>
     ))
   }
+  <h1 class="projects-main-heading">Projects</h1>
+  <slot />
 </Layout>
+
+<style>
+  .code-main-heading {
+    @apply text-4xl font-medium text-c-dark mb-8;
+    letter-spacing: -0.05em;
+    line-height: 1.15;
+    font-weight: 500;
+  }
+
+  .code-main-heading:first-of-type {
+    @apply mt-0;
+  }
+
+  .projects-main-heading {
+    @apply text-4xl font-medium text-c-dark mb-12 mt-20;
+    letter-spacing: -0.05em;
+    line-height: 1.15;
+    font-weight: 500;
+  }
+
+  .code-projects-grid {
+    @apply mb-20;
+  }
+</style>
