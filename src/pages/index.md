@@ -70,6 +70,14 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 
 <div class="publication-item">
   <div class="publication-content">
+    <div class="publication-title">Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs</div>
+    <div class="publication-authors">Tianle Chen*, Chaitanya Chakka*, Arjun Reddy Akula, <u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
+    <div class="publication-meta">New England Computer Vision (NECV) Workshop, 2025 · <a href="https://cskyl.github.io/MMA-Bench/">Webpage</a> · <a href="https://arxiv.org/abs/2511.22826">Paper</a></div>
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-content">
     <div class="publication-title">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</div>
     <div class="publication-authors"><u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
     <div class="publication-meta">International Conference on Computer Vision (ICCV), 2025 · <a href="https://xthomasbu.github.io/GUIDE/">Webpage</a> · <a href="https://github.com/XThomasBU/GUIDE">Code</a> · <a href="https://arxiv.org/abs/2503.06698">Paper</a></div>

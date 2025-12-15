@@ -73,6 +73,33 @@ projects:
   </div>
 </div>
 
+### Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs
+
+<div class="webpage-embed-container">
+  <div class="webpage-embed-header">
+    <span class="webpage-embed-title">Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs</span>
+    <a 
+      href="https://cskyl.github.io/MMA-Bench/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="webpage-embed-link"
+      title="Open in new tab"
+    >
+      <span class="webpage-embed-icon">↗</span>
+    </a>
+  </div>
+  <div class="webpage-embed-wrapper">
+    <iframe
+      src="https://cskyl.github.io/MMA-Bench/"
+      class="webpage-embed-iframe"
+      title="Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs"
+      loading="lazy"
+      allow="fullscreen"
+      sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+    ></iframe>
+  </div>
+</div>
+
 ### What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization
 
 <div class="webpage-embed-container">
