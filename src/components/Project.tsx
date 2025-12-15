@@ -32,8 +32,8 @@ export const Project: Component<{ project: ProjectItem }> = (props) => {
               props.project.tech.map((icon) => <span class={`text-sm ${icon} opacity-70`} />)}
 
             {star() && (
-              <span hstack space-x-1 class="text-xs text-c-lighter">
-                <span i-noto-v1:star />
+              <span hstack space-x-1 class="text-sm text-c-light">
+                <span i-noto-v1:star class="text-xs" />
                 <span class="mt-0.5">{star()}</span>
               </span>
             )}
