@@ -2,12 +2,24 @@
 layout: ../layouts/Projects.astro
 projects:
   Code:
+    - name: GUIDE
+      link: https://github.com/XThomasBU/GUIDE
+      desc: Code for "What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization"
+      tech:
+        - i-logos:python
+      repo: XThomasBU/GUIDE
     - name: revelio
       link: https://github.com/revelio-diffusion/revelio
       desc: Code for "Revelio, Interpreting and Leveraging Visual Semantic Information in Diffusion Models"
       tech:
         - i-logos:python
       repo: revelio-diffusion/revelio
+    - name: scope-diffusers
+      link: https://github.com/Ketansuhaas/scope-diffusers
+      desc: Code for "Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models"
+      tech:
+        - i-logos:python
+      repo: Ketansuhaas/scope-diffusers
     - name: edubotics-core
       link: https://github.com/edubotics-ai/edubotics-core
       desc: edubotics-core is an open-source Python library that allows developers to build LLM-based chatbots efficiently. It provides a comprehensive set of core modules for vector storage, retrieval, processing, with more to come.

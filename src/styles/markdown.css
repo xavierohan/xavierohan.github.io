@@ -6,12 +6,13 @@
 }
 
 .prose h2 {
-  @apply mt-20 mb-10 text-2xl font-medium text-c-dark;
-  letter-spacing: -0.04em;
+  @apply mt-20 mb-10 text-4xl font-medium text-c-dark;
+  letter-spacing: -0.05em;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.03);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
+  line-height: 1.15;
 }
 
 html.dark .prose h2 {

@@ -14,13 +14,13 @@ const { projects } = Astro.props.frontmatter;
 ---
 
 <Layout title={`Writings - ${SITE.title}`} activePage="writings">
-  <h1>Writings</h1>
+  <h1 class="writings-main-heading">Writings</h1>
   <slot />
   {
     Object.keys(projects).map((key) => (
       <>
-        <h3>{key}</h3>
-        <div grid="~ cols-1 sm:cols-2 gap-2" py-2>
+        <h2 class="writings-section-heading">{key}</h2>
+        <div grid="~ cols-1 sm:cols-2 gap-3" py-2 class="writings-projects-grid">
           {projects[key].map((project) => (
             <Project client:load project={project} />
           ))}
@@ -28,5 +28,51 @@ const { projects } = Astro.props.frontmatter;
       </>
     ))
   }
-  <p>See more at <a href="https://paininthearsenal.com/author/xthomas/" target="_blank" rel="noopener noreferrer">https://paininthearsenal.com/author/xthomas/</a></p>
+  <p class="writings-footer-link">See more at <a href="https://paininthearsenal.com/author/xthomas/" target="_blank" rel="noopener noreferrer">https://paininthearsenal.com/author/xthomas/</a></p>
 </Layout>
+
+<style>
+  .writings-main-heading {
+    @apply text-4xl font-medium text-c-dark mb-12;
+    letter-spacing: -0.05em;
+    line-height: 1.15;
+    font-weight: 500;
+  }
+
+  .writings-section-heading {
+    @apply mt-20 mb-8 text-2xl font-medium text-c-dark;
+    letter-spacing: -0.04em;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    font-weight: 500;
+  }
+
+  html.dark .writings-section-heading {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .writings-section-heading:first-of-type {
+    @apply mt-0;
+  }
+
+  .writings-projects-grid {
+    @apply mb-16;
+  }
+
+  .writings-footer-link {
+    @apply mt-20 text-c-light text-sm;
+    letter-spacing: -0.01em;
+    line-height: 1.7;
+  }
+
+  .writings-footer-link a {
+    @apply text-c-active no-underline hover:underline;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .writings-footer-link a:hover {
+    opacity: 0.75;
+  }
+</style>
