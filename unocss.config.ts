@@ -24,10 +24,10 @@ export default defineConfig({
     ["text-c-lighter", "text-c opacity-50"],
     ["text-c-dark", "text-black dark:text-white"],
     ["text-c-active", "text-brand dark:text-blue-300"],
-    ["nav-item", "hstack space-x-1 text-c-light hover:text-c-dark"],
+    ["nav-item", "hstack space-x-1 text-c-light hover:text-c-dark transition-all duration-200 font-normal"],
     [
       "btn",
-      "hstack space-x-1 rounded-lg transition-all decoration-none text-sm !text-c bg-gray-100/90 dark:bg-gray-50/10 hover:(!bg-gray-500 !text-white !no-underline scale-[1.02])"
+      "hstack space-x-1 rounded-md transition-all decoration-none text-sm !text-c bg-gray-50/80 dark:bg-gray-800/50 hover:(!bg-gray-100 dark:!bg-gray-700 !no-underline) border border-transparent hover:border-gray-200 dark:hover:border-gray-600"
     ],
     ["prose-lg", "lg:text-lg max-w-content"]
   ],

@@ -77,22 +77,22 @@
 @layer base {
   :root {
     color-scheme: light;
-    --theme-bg: #f9f9f9;
-    --theme-text: #22272a;
-    --theme-link: #557b76;
+    --theme-bg: #fafafa;
+    --theme-text: #1a1a1a;
+    --theme-link: #4a5568;
     --theme-accent: #cb2941;
-    --theme-accent-2: #111111;
+    --theme-accent-2: #0a0a0a;
     --theme-quote: #cb2941;
 
   }
 
   :root.dark {
     color-scheme: dark;
-    --theme-bg: #1c1e20;
-    --theme-text: #ffffff;
-    --theme-link: #c7c8cb;
+    --theme-bg: #1a1a1a;
+    --theme-text: #f5f5f5;
+    --theme-link: #a0a0a0;
     --theme-accent: #29bc88;
-    --theme-accent-2: #ededed;
+    --theme-accent-2: #e5e5e5;
     --theme-quote: #cdfeb7;
 
   }
@@ -112,6 +112,7 @@
   html body {
     @apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-8 text-textColor antialiased overflow-x-hidden;
     animation: fadeIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    letter-spacing: -0.011em;
   }
 
   @keyframes fadeIn {

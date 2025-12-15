@@ -26,7 +26,7 @@ const { name, subname, avatar, socials } = Astro.props.frontmatter;
     />
   </head>
 
-  <div class="flex items-end justify-between">
+  <div class="flex items-end justify-between mb-8">
     <div>
       <h1>
         {name}
@@ -37,8 +37,7 @@ const { name, subname, avatar, socials } = Astro.props.frontmatter;
     {
       avatar && (
         <div
-          class="p-1 mb-1 border border-c rounded-md"
-          shadow="[inset_0_0_10px_#000000] slate-200 dark:slate-800"
+          class="p-0.5 mb-1 border border-c/30 rounded-lg overflow-hidden"
         >
           <FlipImage class="w-24 h-24" src={avatar} alt="avatar" />
         </div>

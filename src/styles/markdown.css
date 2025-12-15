@@ -1,19 +1,21 @@
 .prose p {
-  @apply leading-[1.7];
+  @apply leading-[1.75];
   font-size: 0.95em;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.012em;
+  font-weight: 400;
 }
 
 .prose h2 {
-  @apply mt-16 mb-8 text-2xl font-semibold text-c-dark;
-  letter-spacing: -0.03em;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  @apply mt-20 mb-10 text-2xl font-medium text-c-dark;
+  letter-spacing: -0.04em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
 }
 
 html.dark .prose h2 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .prose h2:first-child {
@@ -23,27 +25,26 @@ html.dark .prose h2 {
 /** Section Containers for Cognitive Load Reduction **/
 
 .prose .section-container {
-  @apply mb-12 p-6 rounded-xl;
+  @apply mb-16 p-0 rounded-none;
   background: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: transform, box-shadow;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html.dark .prose .section-container {
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: none;
 }
 
 .prose .section-container:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-  transform: translateY(-1px);
-  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: none;
+  transform: none;
+  border-color: transparent;
 }
 
 html.dark .prose .section-container:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+  border-color: transparent;
 }
 
 .prose h2 + .section-container {
@@ -61,10 +62,12 @@ html.dark .prose .section-container:hover {
   font-size: 0.95em;
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .prose a:hover {
-  opacity: 0.85;
+  opacity: 0.75;
 }
 
 .prose img,
@@ -78,11 +81,12 @@ html.dark .prose .section-container:hover {
 }
 
 .prose hr {
-  border-top: 1px solid #e5e7eb; /* border-c */
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+  margin: 3rem 0;
 }
 
 html.dark .prose hr {
-  border-top: 1px solid #4b5563; /* border-c */
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 main:not(.post) a.header-anchor {
@@ -301,25 +305,25 @@ html:not(.dark) .prose div[class*="language-"] pre[data-theme="dark"] {
 /** Minimalist Experience & Education Styles **/
 
 .prose .experience-item {
-  @apply flex py-5 space-x-6;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  @apply flex py-6 space-x-6;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
   opacity: 0;
   will-change: transform, opacity;
 }
 
 html.dark .prose .experience-item {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
 }
 
 .prose .experience-item:hover {
-  transform: translateX(4px);
-  border-color: rgba(0, 0, 0, 0.08);
+  transform: translateX(2px);
+  border-color: rgba(0, 0, 0, 0.04);
 }
 
 html.dark .prose .experience-item:hover {
-  border-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.06);
 }
 
 .prose .experience-item:last-child {
@@ -327,23 +331,17 @@ html.dark .prose .experience-item:hover {
 }
 
 .prose .experience-image {
-  @apply flex-shrink-0 w-20 h-20 flex items-center justify-center;
+  @apply flex-shrink-0 w-16 h-16 flex items-center justify-center;
 }
 
 .prose .experience-image img {
   @apply max-w-full max-h-full object-contain;
   width: 100%;
   height: 100%;
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: transform;
-}
-
-.prose .experience-item:hover .experience-image img {
-  transform: scale(1.08);
 }
 
 .prose .experience-content {
-  @apply flex-1 space-y-1.5;
+  @apply flex-1 space-y-2;
   max-width: 100%;
 }
 
@@ -353,17 +351,19 @@ html.dark .prose .experience-item:hover {
 }
 
 .prose .experience-title {
-  @apply font-semibold text-base text-c-dark;
+  @apply font-medium text-base text-c-dark;
   font-size: 1.05em;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.02em;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 .prose .experience-org {
   @apply text-c-light;
   font-size: 0.95em;
-  letter-spacing: -0.01em;
-  line-height: 1.6;
+  letter-spacing: -0.012em;
+  line-height: 1.65;
+  font-weight: 400;
 }
 
 .prose .experience-subtitle {
@@ -391,10 +391,11 @@ html.dark .prose .experience-item:hover {
 }
 
 .prose .experience-description {
-  @apply text-c-light mt-3;
+  @apply text-c-light mt-4;
   font-size: 0.9em;
-  line-height: 1.75;
-  letter-spacing: -0.005em;
+  line-height: 1.8;
+  letter-spacing: -0.01em;
+  font-weight: 400;
 }
 
 .prose .experience-bullets {
@@ -432,25 +433,25 @@ html.dark .prose .experience-item:hover {
 /** Minimalist Publication Styles **/
 
 .prose .publication-item {
-  @apply flex py-5 space-x-6;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  @apply flex py-6 space-x-6;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
   opacity: 0;
   will-change: transform, opacity;
 }
 
 html.dark .prose .publication-item {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
 }
 
 .prose .publication-item:hover {
-  transform: translateX(4px);
-  border-color: rgba(0, 0, 0, 0.08);
+  transform: translateX(2px);
+  border-color: rgba(0, 0, 0, 0.04);
 }
 
 html.dark .prose .publication-item:hover {
-  border-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.06);
 }
 
 .prose .publication-item:last-of-type {
@@ -472,25 +473,28 @@ html.dark .prose .publication-image {
 }
 
 .prose .publication-title {
-  @apply font-semibold text-base text-c-dark mb-2;
+  @apply font-medium text-base text-c-dark mb-2.5;
   font-size: 1.05em;
   line-height: 1.5;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
 }
 
 .prose .publication-authors {
-  @apply text-c-light mb-2;
+  @apply text-c-light mb-2.5;
   font-size: 0.95em;
-  line-height: 1.6;
-  letter-spacing: -0.01em;
+  line-height: 1.65;
+  letter-spacing: -0.012em;
+  font-weight: 400;
 }
 
 .prose .publication-meta {
   @apply text-c-lighter mb-0;
   font-size: 0.9em;
-  line-height: 1.65;
-  letter-spacing: -0.005em;
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+  font-weight: 400;
 }
 
 .prose .publication-meta a {
