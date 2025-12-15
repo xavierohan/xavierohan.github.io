@@ -9,7 +9,7 @@ import {
 } from "unocss";
 
 const DEFAULT_FONTS =
-  "system-ui, -apple-system, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif";
+  "Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif";
 
 export default defineConfig({
   shortcuts: [
@@ -27,13 +27,13 @@ export default defineConfig({
     ["nav-item", "hstack space-x-1 text-c-light hover:text-c-dark"],
     [
       "btn",
-      "hstack space-x-1 rounded transition-colors decoration-none text-sm !text-c bg-gray-100/90 dark:bg-gray-50/10 hover:(!bg-gray-500 !text-white !no-underline)"
+      "hstack space-x-1 rounded-lg transition-all decoration-none text-sm !text-c bg-gray-100/90 dark:bg-gray-50/10 hover:(!bg-gray-500 !text-white !no-underline scale-[1.02])"
     ],
     ["prose-lg", "lg:text-lg max-w-content"]
   ],
   theme: {
     fontFamily: {
-      sans: `Computer Modern Sans, ${DEFAULT_FONTS}`,
+      sans: DEFAULT_FONTS,
       ui: DEFAULT_FONTS
     },
     boxShadow: {
