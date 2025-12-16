@@ -26,6 +26,12 @@ projects:
       tech:
         - i-logos:python
       repo: edubotics-ai/edubotics-core
+    - name: edubotics-app
+      link: https://github.com/edubotics-ai/edubotics-app
+      desc: Example application demonstrating how to build an application that incorporates the edubotics-core package. Includes templates and configuration files for creating intelligent chatbots.
+      tech:
+        - i-logos:python
+      repo: edubotics-ai/edubotics-app
     - name: sonar
       link: https://github.com/aidecentralized/sonar
       desc: SONAR - Self-Organizing Network of Aggregated Representations
