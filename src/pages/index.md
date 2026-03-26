@@ -54,9 +54,9 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 <div class="section-container">
 <div class="publication-item">
   <div class="publication-content">
-    <div class="publication-title">Blind to Shape, Bound to Semantics: A VLM's Dilemma</div>
-    <div class="publication-authors">Zach Meurer, Jason Qiu, <u>Xavier Thomas</u>, Thomas Fel, Deepti Ghadiyaram</div>
-    <div class="publication-meta">New England Computer Vision (NECV) Workshop, 2025 · <a href="/files/NECV%202025_%20VLM-Blind%20Poster-pages.pdf">Poster</a></div>
+    <div class="publication-title">Semantic Richness or Geometric Reasoning? The Fragility of VLM’s Visual Invariance</div>
+    <div class="publication-authors">Zach Meurer*, Jason Qiu*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
+    <div class="publication-meta">Under Review · <a href="/files/NECV%202025_%20VLM-Blind%20Poster-pages.pdf">Poster</a></div>
   </div>
 </div>
 
@@ -64,7 +64,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   <div class="publication-content">
     <div class="publication-title">Generative Action Tell-Tales: Assessing human motion in synthesized videos</div>
     <div class="publication-authors"><u>Xavier Thomas</u>, Youngsun Lim, Ananya Srinivasan, Audrey Zheng, Deepti Ghadiyaram</div>
-    <div class="publication-meta">New England Computer Vision (NECV) Workshop (Oral), 2025 · <a href="https://xthomasbu.github.io/video-gen-evals/">Webpage</a> · <a href="https://arxiv.org/abs/2512.01803">Paper</a></div>
+    <div class="publication-meta">PhysHuman Workshop, IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR), 2026 (Oral)· <a href="https://xthomasbu.github.io/video-gen-evals/">Webpage</a> · <a href="https://arxiv.org/abs/2512.01803">Paper</a></div>
   </div>
 </div>
 
@@ -72,7 +72,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   <div class="publication-content">
     <div class="publication-title">Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs</div>
     <div class="publication-authors">Tianle Chen*, Chaitanya Chakka*, Arjun Reddy Akula, <u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
-    <div class="publication-meta">New England Computer Vision (NECV) Workshop, 2025 · <a href="https://cskyl.github.io/MMA-Bench/">Webpage</a> · <a href="https://arxiv.org/abs/2511.22826">Paper</a></div>
+    <div class="publication-meta">IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) Findings, 2026 · <a href="https://cskyl.github.io/MMA-Bench/">Webpage</a> · <a href="https://arxiv.org/abs/2511.22826">Paper</a></div>
   </div>
 </div>
 
