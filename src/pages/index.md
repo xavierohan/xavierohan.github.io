@@ -56,7 +56,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   <div class="publication-content">
     <div class="publication-title">Semantic Richness or Geometric Reasoning? The Fragility of VLM’s Visual Invariance</div>
     <div class="publication-authors">Jason Qiu*, Zachary Meurer*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
-    <div class="publication-meta">Under Review · <a href="/files/NECV%202025_%20VLM-Blind%20Poster-pages.pdf">Poster</a></div>
+    <div class="publication-meta">Preprint · <a href="http://arxiv.org/abs/2604.01848">Paper</a></div>
   </div>
 </div>
 
