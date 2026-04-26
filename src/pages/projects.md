@@ -52,6 +52,33 @@ projects:
       repo: serre-lab/diversity_vs_recognizability
 ---
 
+### Semantic Richness or Geometric Reasoning? The Fragility of VLM’s Visual Invariance
+
+<div class="webpage-embed-container">
+  <div class="webpage-embed-header">
+    <span class="webpage-embed-title">Semantic Richness or Geometric Reasoning? The Fragility of VLM’s Visual Invariance</span>
+    <a 
+      href="https://xthomasbu.github.io/visual_invariance/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="webpage-embed-link"
+      title="Open in new tab"
+    >
+      <span class="webpage-embed-icon">↗</span>
+    </a>
+  </div>
+  <div class="webpage-embed-wrapper">
+    <iframe
+      src="https://xthomasbu.github.io/visual_invariance/"
+      class="webpage-embed-iframe"
+      title="Semantic Richness or Geometric Reasoning? The Fragility of VLM’s Visual Invariance"
+      loading="lazy"
+      allow="fullscreen"
+      sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+    ></iframe>
+  </div>
+</div>
+
 ### Generative Action Tell-Tales: Assessing human motion in synthesized videos
 
 <div class="webpage-embed-container">

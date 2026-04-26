@@ -49,6 +49,11 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 </div>
 </div>
 
+<!-- ## News
+
+- **Apr 2026**: Presented our work *Generative Action Tell-Tales: Assessing human motion in synthesized videos* at the <a href="https://mlcollective.org/dlct/">ML Collective Deep Learning: Classics and Trends (DLCT) reading group</a>. -->
+
+
 ## Research
 
 <div class="section-container">
@@ -56,7 +61,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   <div class="publication-content">
     <div class="publication-title">Semantic Richness or Geometric Reasoning? The Fragility of VLM’s Visual Invariance</div>
     <div class="publication-authors">Jason Qiu*, Zachary Meurer*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
-    <div class="publication-meta">Preprint · <a href="http://arxiv.org/abs/2604.01848">Paper</a></div>
+    <div class="publication-meta">Preprint · <a href="https://xthomasbu.github.io/visual_invariance/">Webpage</a> · <a href="https://arxiv.org/abs/2604.01848">Paper</a></div>
   </div>
 </div>
 
