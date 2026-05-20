@@ -59,7 +59,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2026-03">Mar 2026</time>
-      <p class="news-body"><a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> accepted as oral at VGBE and PhysHuman workshops, CVPR 2026.</p>
+      <p class="news-body"><a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> accepted as an oral at VGBE and PhysHuman workshops, CVPR 2026.</p>
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2026-02">Feb 2026</time>
@@ -83,11 +83,11 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2025-04">Apr 2025</time>
-      <p class="news-body"><a href="https://ketansuhaas.github.io/scope-diffusers" class="news-emphasis">Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models</a> accepted as oral at the AI4CC Workshop, CVPR 2025.</p>
+      <p class="news-body"><a href="https://ketansuhaas.github.io/scope-diffusers" class="news-emphasis">Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models</a> accepted as an oral at the AI4CC Workshop, CVPR 2025.</p>
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2025-03">Mar 2025</time>
-      <p class="news-body"><a href="https://revelio-diffusion.github.io/revelio/" class="news-emphasis">Revelio: Interpreting and leveraging semantic information in diffusion models</a> accepted as oral at the MIV Workshop, CVPR 2025.</p>
+      <p class="news-body"><a href="https://revelio-diffusion.github.io/revelio/" class="news-emphasis">Revelio: Interpreting and leveraging semantic information in diffusion models</a> accepted as an oral at the MIV Workshop, CVPR 2025.</p>
     </article>
   </div>
 </div>
