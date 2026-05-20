@@ -49,10 +49,48 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 </div>
 </div>
 
-<!-- ## News
+## News
 
-- **Apr 2026**: Presented our work *Generative Action Tell-Tales: Assessing human motion in synthesized videos* at the <a href="https://mlcollective.org/dlct/">ML Collective Deep Learning: Classics and Trends (DLCT) reading group</a>. -->
-
+<div class="news-panel">
+  <div class="news-panel-scroll" tabindex="0" role="region" aria-label="News updates">
+    <article class="news-entry">
+      <time class="news-date" datetime="2026-04">Apr 2026</time>
+      <p class="news-body">Presented <a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> at the <a href="https://mlcollective.org/dlct/">ML Collective DLCT reading group</a>.</p>
+    </article>
+    <article class="news-entry">
+      <time class="news-date" datetime="2026-03">Mar 2026</time>
+      <p class="news-body"><a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> accepted as oral at VGBE and PhysHuman workshops, CVPR 2026.</p>
+    </article>
+    <article class="news-entry">
+      <time class="news-date" datetime="2026-02">Feb 2026</time>
+      <p class="news-body"><a href="https://cskyl.github.io/MMA-Bench/" class="news-emphasis">Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs</a> accepted to CVPR 2026 Findings.</p>
+    </article>
+    <article class="news-entry">
+      <time class="news-date" datetime="2025-11">Nov 2025</time>
+      <p class="news-body">Presented <a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> at <a href="https://necv2025.github.io/">NECV 2025</a> (oral).</p>
+    </article>
+    <article class="news-entry">
+      <time class="news-date" datetime="2025-09">Sep 2025</time>
+      <p class="news-body">Started my PhD at Boston University, advised by <a href="https://deeptigp.github.io">Prof. Deepti Ghadiyaram</a>.</p>
+    </article>
+    <article class="news-entry">
+      <time class="news-date" datetime="2025-06">Jun 2025</time>
+      <p class="news-body"><a href="https://xthomasbu.github.io/GUIDE/" class="news-emphasis">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</a> and <a href="https://revelio-diffusion.github.io/revelio/" class="news-emphasis">Revelio: Interpreting and leveraging semantic information in diffusion models</a> accepted at ICCV 2025.</p>
+    </article>
+    <article class="news-entry">
+      <time class="news-date" datetime="2025-05">May 2025</time>
+      <p class="news-body"><a href="https://xthomasbu.github.io/GUIDE/" class="news-emphasis">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</a> accepted at the VisCon Workshop, CVPR 2025.</p>
+    </article>
+    <article class="news-entry">
+      <time class="news-date" datetime="2025-04">Apr 2025</time>
+      <p class="news-body"><a href="https://ketansuhaas.github.io/scope-diffusers" class="news-emphasis">Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models</a> accepted as oral at the AI4CC Workshop, CVPR 2025.</p>
+    </article>
+    <article class="news-entry">
+      <time class="news-date" datetime="2025-03">Mar 2025</time>
+      <p class="news-body"><a href="https://revelio-diffusion.github.io/revelio/" class="news-emphasis">Revelio: Interpreting and leveraging semantic information in diffusion models</a> accepted as oral at the MIV Workshop, CVPR 2025.</p>
+    </article>
+  </div>
+</div>
 
 ## Research
 

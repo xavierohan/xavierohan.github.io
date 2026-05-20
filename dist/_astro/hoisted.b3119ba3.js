@@ -1,1 +1,0 @@
-import"./hoisted.7ae76cac.js";const e=["🙃","😏","🤷","🙄","😒","😑","😐","😶","🤨","😏","😌","😪","😴","🤐","😬","😅"],n=document.querySelector("#emoji");let o=Math.floor(Math.random()*e.length);function r(){if(n){let t;do t=Math.floor(Math.random()*e.length);while(t===o&&e.length>1);o=t,n.textContent=e[o]}}r();setInterval(r,2e3);
