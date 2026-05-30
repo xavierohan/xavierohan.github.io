@@ -201,7 +201,7 @@ For more see <a href="https://scholar.google.com/citations?user=U5Qor54AAAAJ" ta
     <div class="experience-org">ShareChat | Content and User Understanding Team</div>
     <div class="experience-date">Jul 2022 – Jun 2023</div>
     <div class="experience-description">
-      Integrated advanced computer vision pipelines into production, improving content classification and moderation capabilities on ShareChat (180M+ MAUs) and Moj (160M+ MAUs). Contributed to <strong>MAViC, a Multimodal Active Learning algorithm for Video Captioning</strong> that reduces annotation effort by integrating semantic similarity and uncertainty from visual and language modalities.
+      Integrated advanced computer vision pipelines into production, improving content classification and moderation capabilities on ShareChat (180M+ MAUs) and Moj (160M+ MAUs).
     </div>
   </div>
 </div>
