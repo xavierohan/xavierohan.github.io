@@ -160,7 +160,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Diffusion latents cluster images by visual domain without domain labels. Feeding these pseudo domain features into a classifier improves generalization to unseen domains, including over methods trained with ground truth domain tags.</p>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> We recognize a dog across photos, cartoons, sketches, and paintings, but classifiers often fail when visual style shifts. Diffusion latents already separate these style domains without labels, so we use them as pseudo domain features to help classifiers generalize to unseen domains, even beating methods trained with ground truth domain tags.</p>
     <div class="publication-authors"><u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
@@ -179,7 +179,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">Revelio: Interpreting and leveraging semantic information in diffusion models</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Diffusion models store interpretable semantic features at specific layers and timesteps. We extract them with sparse autoencoders and show they transfer to classification and other vision tasks through lightweight probes.</p>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Generative models produce a rich world of images, but what do they encode internally, and how is that world represented? We uncover interpretable semantic features at specific layers and timesteps with sparse autoencoders, and show they transfer to classification and other vision tasks through lightweight probes.</p>
     <div class="publication-authors">Dahye Kim*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
