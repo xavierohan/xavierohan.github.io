@@ -98,72 +98,179 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">Semantic Richness or Geometric Reasoning? The Fragility of VLM’s Visual Invariance</div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Humans can tell whether two shapes match under rotation or scaling, even without naming what they are. Leading MLLMs cannot. Accuracy holds on photos but collapses on sketches and rare scripts where semantic cues becomes sparser.</p>
     <div class="publication-authors">Jason Qiu*, Zachary Meurer*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
-    <div class="publication-meta">Preprint · <a href="https://xthomasbu.github.io/visual_invariance/">Webpage</a> · <a href="https://arxiv.org/abs/2604.01848">Paper</a></div>
+    <div class="publication-meta">
+      <div class="publication-badges">
+        <span class="pub-badge pub-venue">Preprint</span>
+        <span class="pub-badge pub-year">2026</span>
+      </div>
+      <div class="publication-links">
+        <a href="https://xthomasbu.github.io/visual_invariance/" class="pub-link"><i class="fas fa-globe" aria-hidden="true"></i> Webpage</a>
+        <a href="https://arxiv.org/abs/2604.01848" class="pub-link"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">Generative Action Tell-Tales: Assessing human motion in synthesized videos</div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Humans can spot the wrong action or implausible motion in a generated video. MLLMs and existing metrics cannot. We learn a human centric representation of real movement and score how far a generated clip deviates from realistic action.</p>
     <div class="publication-authors"><u>Xavier Thomas</u>, Youngsun Lim, Ananya Srinivasan, Audrey Zheng, Deepti Ghadiyaram</div>
-    <div class="publication-meta">Video Generative Models: Benchmarks and Evaluation Workshop, CVPR, 2026 (Oral)· <a href="https://xthomasbu.github.io/video-gen-evals/">Webpage</a> · <a href="https://arxiv.org/abs/2512.01803">Paper</a></div>
+    <div class="publication-meta">
+      <div class="publication-badges">
+        <span class="pub-badge pub-venue">CVPR</span>
+        <span class="pub-badge pub-workshop">VGBE Workshop</span>
+        <span class="pub-badge pub-year">2026</span>
+        <span class="pub-badge pub-oral"><i class="fas fa-microphone" aria-hidden="true"></i> Oral</span>
+      </div>
+      <div class="publication-links">
+        <a href="https://xthomasbu.github.io/video-gen-evals/" class="pub-link"><i class="fas fa-globe" aria-hidden="true"></i> Webpage</a>
+        <a href="https://arxiv.org/abs/2512.01803" class="pub-link"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs</div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> If you ask what you hear in a video, people listen. Ask what you see, and they look. MLLMs ignore that distinction when audio, video, and captions disagree. We build benchmarks with deliberate conflicts and fine tune models to answer from the modality being asked about.</p>
     <div class="publication-authors">Tianle Chen*, Chaitanya Chakka*, Arjun Reddy Akula, <u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
-    <div class="publication-meta">CVPR Findings, 2026 · <a href="https://cskyl.github.io/MMA-Bench/">Webpage</a> · <a href="https://arxiv.org/abs/2511.22826">Paper</a></div>
+    <div class="publication-meta">
+      <div class="publication-badges">
+        <span class="pub-badge pub-venue">CVPR</span>
+        <span class="pub-badge pub-type">Findings</span>
+        <span class="pub-badge pub-year">2026</span>
+        <span class="pub-badge-divider" aria-hidden="true"></span>
+        <span class="pub-badge pub-venue">CVPR</span>
+        <span class="pub-badge pub-workshop">Sight and Sound Workshop</span>
+        <span class="pub-badge pub-year">2026</span>
+        <span class="pub-badge pub-oral"><i class="fas fa-microphone" aria-hidden="true"></i> Oral</span>
+      </div>
+      <div class="publication-links">
+        <a href="https://cskyl.github.io/MMA-Bench/" class="pub-link"><i class="fas fa-globe" aria-hidden="true"></i> Webpage</a>
+        <a href="https://arxiv.org/abs/2511.22826" class="pub-link"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Diffusion latents cluster images by visual domain without domain labels. Feeding these pseudo domain features into a classifier improves generalization to unseen domains, including over methods trained with ground truth domain tags.</p>
     <div class="publication-authors"><u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
-    <div class="publication-meta">ICCV, 2025 · <a href="https://xthomasbu.github.io/GUIDE/">Webpage</a> · <a href="https://github.com/XThomasBU/GUIDE">Code</a> · <a href="https://arxiv.org/abs/2503.06698">Paper</a></div>
+    <div class="publication-meta">
+      <div class="publication-badges">
+        <span class="pub-badge pub-venue">ICCV</span>
+        <span class="pub-badge pub-year">2025</span>
+      </div>
+      <div class="publication-links">
+        <a href="https://xthomasbu.github.io/GUIDE/" class="pub-link"><i class="fas fa-globe" aria-hidden="true"></i> Webpage</a>
+        <a href="https://arxiv.org/abs/2503.06698" class="pub-link"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+        <a href="https://github.com/XThomasBU/GUIDE" class="pub-link"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">Revelio: Interpreting and leveraging semantic information in diffusion models</div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Diffusion models store interpretable semantic features at specific layers and timesteps. We extract them with sparse autoencoders and show they transfer to classification and other vision tasks through lightweight probes.</p>
     <div class="publication-authors">Dahye Kim*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
-    <div class="publication-meta">ICCV, 2025 · <a href="https://revelio-diffusion.github.io/revelio/">Webpage</a> · <a href="https://github.com/revelio-diffusion/revelio">Code</a> · <a href="https://www.arxiv.org/abs/2411.16725">Paper</a></div>
+    <div class="publication-meta">
+      <div class="publication-badges">
+        <span class="pub-badge pub-venue">ICCV</span>
+        <span class="pub-badge pub-year">2025</span>
+        <span class="pub-badge-divider" aria-hidden="true"></span>
+        <span class="pub-badge pub-venue">CVPR</span>
+        <span class="pub-badge pub-workshop">MIV Workshop</span>
+        <span class="pub-badge pub-year">2025</span>
+        <span class="pub-badge pub-oral"><i class="fas fa-microphone" aria-hidden="true"></i> Oral</span>
+      </div>
+      <div class="publication-links">
+        <a href="https://revelio-diffusion.github.io/revelio/" class="pub-link"><i class="fas fa-globe" aria-hidden="true"></i> Webpage</a>
+        <a href="https://www.arxiv.org/abs/2411.16725" class="pub-link"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+        <a href="https://github.com/revelio-diffusion/revelio" class="pub-link"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models</div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> A painter sketches the scene first, then adds objects, then texture. Text to image models try to do all of that from one prompt. We break the prompt into the same coarse to fine steps and schedule them across denoising so the final image actually reflects what was asked for.</p>
     <div class="publication-authors">Ketan Suhaas Saichandran*, <u>Xavier Thomas</u>*, Prakhar Kaushik, Deepti Ghadiyaram</div>
-    <div class="publication-meta">AI4CC Workshop, CVPR, 2025 (oral) · <a href="https://ketansuhaas.github.io/scope-diffusers">Webpage</a> · <a href="https://github.com/Ketansuhaas/scope-diffusers">Code</a> · <a href="https://arxiv.org/abs/2503.17794">Paper</a></div>
+    <div class="publication-meta">
+      <div class="publication-badges">
+        <span class="pub-badge pub-venue">CVPR</span>
+        <span class="pub-badge pub-workshop">AI4CC Workshop</span>
+        <span class="pub-badge pub-year">2025</span>
+        <span class="pub-badge pub-oral"><i class="fas fa-microphone" aria-hidden="true"></i> Oral</span>
+      </div>
+      <div class="publication-links">
+        <a href="https://ketansuhaas.github.io/scope-diffusers" class="pub-link"><i class="fas fa-globe" aria-hidden="true"></i> Webpage</a>
+        <a href="https://arxiv.org/abs/2503.17794" class="pub-link"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+        <a href="https://github.com/Ketansuhaas/scope-diffusers" class="pub-link"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">Diversity vs. Recognizability: Human-like generalization in one-shot generative models</div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Given one handwritten character, people draw new examples that look like the same letter but vary in stroke. FID and likelihood miss this tradeoff, so we measure recognizability and diversity separately and compare one shot models to human samples on Omniglot.</p>
     <div class="publication-authors">Victor Boutin, Lakshya Singhal, <u>Xavier Thomas</u>, Thomas Serre</div>
-    <div class="publication-meta">NeurIPS, 2022 · <a href="https://github.com/serre-lab/diversity_vs_recognizability">Code</a> · <a href="https://arxiv.org/abs/2205.10370">Paper</a></div>
-  </div>
-</div>
-
-<div class="publication-item">
-  <div class="publication-content">
-    <div class="publication-title">Adaptive Methods for Aggregated Domain Generalization</div>
-    <div class="publication-authors"><u>Xavier Thomas</u>, Dhruv Mahajan, Alex Pentland, Abhimanyu Dubey</div>
-    <div class="publication-meta">Preprint · <a href="https://github.com/xavierohan/AdaClust_DomainBed">Code</a> · <a href="https://arxiv.org/abs/2112.04766">Paper</a></div>
+    <div class="publication-meta">
+      <div class="publication-badges">
+        <span class="pub-badge pub-venue">NeurIPS</span>
+        <span class="pub-badge pub-year">2022</span>
+      </div>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2205.10370" class="pub-link"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+        <a href="https://github.com/serre-lab/diversity_vs_recognizability" class="pub-link"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title">MAViC: Multimodal Active Learning for Video Captioning</div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Video captioning requires a human written caption for every clip. We rank unlabeled videos by multimodal uncertainty and caption semantics so annotators label the clips that most improve the model.</p>
     <div class="publication-authors">Gyanendra Das, <u>Xavier Thomas</u>, Anant Raj, Vikram Gupta</div>
-    <div class="publication-meta">Preprint · <a href="https://arxiv.org/abs/2212.11109">Paper</a></div>
+    <div class="publication-meta">
+      <div class="publication-badges">
+        <span class="pub-badge pub-venue">Preprint</span>
+        <span class="pub-badge pub-year">2022</span>
+      </div>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2212.11109" class="pub-link"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-content">
+    <div class="publication-title">Adaptive Methods for Aggregated Domain Generalization</div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Training data often arrives mixed across domains with no domain tags. We cluster samples into pseudo domains and train a classifier on both the image and its cluster, reaching performance competitive with domain supervised methods.</p>
+    <div class="publication-authors"><u>Xavier Thomas</u>, Dhruv Mahajan, Alex Pentland, Abhimanyu Dubey</div>
+    <div class="publication-meta">
+      <div class="publication-badges">
+        <span class="pub-badge pub-venue">Preprint</span>
+        <span class="pub-badge pub-year">2021</span>
+      </div>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2112.04766" class="pub-link"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+        <a href="https://github.com/xavierohan/AdaClust_DomainBed" class="pub-link"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+      </div>
+    </div>
   </div>
 </div>
 

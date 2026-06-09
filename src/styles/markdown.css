@@ -525,6 +525,9 @@ html.dark .prose .experience-item:hover {
 .prose .publication-content {
   @apply flex-1;
   max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
 }
 
 .prose .experience-title {
@@ -610,7 +613,7 @@ html.dark .prose .experience-item:hover {
 /** Minimalist Publication Styles **/
 
 .prose .publication-item {
-  @apply flex py-6 space-x-6;
+  @apply flex py-7 space-x-6;
   border-bottom: 1px solid rgba(0, 0, 0, 0.02);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
@@ -650,28 +653,181 @@ html.dark .prose .publication-image {
 }
 
 .prose .publication-title {
-  @apply font-medium text-base text-c-dark mb-2.5;
+  @apply font-medium text-base text-c-dark mb-1;
   font-size: 1.05em;
-  line-height: 1.5;
+  line-height: 1.55;
   letter-spacing: -0.025em;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
 }
 
+.prose .publication-tldr {
+  @apply m-0 mb-2.5 italic;
+  font-size: 0.9em;
+  line-height: 1.75;
+  letter-spacing: -0.008em;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.52);
+}
+
+html.dark .prose .publication-tldr {
+  color: rgba(255, 255, 255, 0.52);
+}
+
+.prose .publication-tldr-label {
+  @apply not-italic;
+  display: inline-block;
+  font-style: normal;
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-right: 0.55rem;
+  vertical-align: baseline;
+  color: rgba(0, 0, 0, 0.58);
+}
+
+html.dark .prose .publication-tldr-label {
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.prose .publication-tldr-label::after {
+  content: "·";
+  margin-left: 0.55rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  opacity: 0.5;
+}
+
 .prose .publication-authors {
-  @apply text-c-light mb-2.5;
-  font-size: 0.95em;
-  line-height: 1.65;
+  @apply text-c-light mb-1;
+  font-size: 0.94em;
+  line-height: 1.6;
   letter-spacing: -0.012em;
   font-weight: 400;
 }
 
 .prose .publication-meta {
-  @apply text-c-lighter mb-0;
-  font-size: 0.9em;
-  line-height: 1.7;
-  letter-spacing: -0.01em;
-  font-weight: 400;
+  @apply mb-0;
+  margin-top: 0.65rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.65rem;
+}
+
+.prose .publication-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.prose .pub-badge-divider {
+  display: inline-block;
+  width: 1px;
+  height: 0.85em;
+  background: rgba(0, 0, 0, 0.08);
+  align-self: center;
+  flex-shrink: 0;
+  margin: 0 0.1rem;
+}
+
+html.dark .prose .pub-badge-divider {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.prose .pub-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.72em;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: rgba(0, 0, 0, 0.02);
+  color: inherit;
+  opacity: 0.9;
+}
+
+html.dark .prose .pub-badge {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.prose .pub-badge i {
+  font-size: 0.85em;
+  opacity: 0.85;
+}
+
+.prose .pub-venue {
+  @apply text-c-dark;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.prose .pub-year,
+.prose .pub-type,
+.prose .pub-workshop {
+  @apply text-c-lighter;
+  font-weight: 500;
+}
+
+.prose .pub-oral {
+  @apply text-c-active;
+  border-color: rgba(23, 114, 208, 0.18);
+  background: rgba(23, 114, 208, 0.05);
+  font-weight: 600;
+}
+
+html.dark .prose .pub-oral {
+  border-color: rgba(147, 197, 253, 0.22);
+  background: rgba(147, 197, 253, 0.08);
+}
+
+.prose .publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem 0.75rem;
+}
+
+.prose .publication-links::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 0.85em;
+  background: rgba(0, 0, 0, 0.08);
+  align-self: center;
+  flex-shrink: 0;
+}
+
+html.dark .prose .publication-links::before {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.prose .pub-link {
+  @apply text-c-active no-underline;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.84em;
+  letter-spacing: -0.006em;
+  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.prose .pub-link i {
+  font-size: 0.82em;
+  opacity: 0.75;
+}
+
+.prose .pub-link:hover {
+  @apply underline;
+  opacity: 0.85;
 }
 
 .prose .publication-meta a {
