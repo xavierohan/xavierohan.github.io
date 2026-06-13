@@ -14,7 +14,7 @@ music:
     description: " - Used to be my favourite musician(s), but can't lie, they fell off"
   - title: "Hollow Coves"
     description: " - New favourite"
-  - title: "Arctic Monkeys"
+  - title: "The Walters"
     description: " - Still dope"
   - title: "Father John Misty"
     description: ""

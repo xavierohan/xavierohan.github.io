@@ -18,15 +18,17 @@ socials:
 
 👋 Hi! I'm currently a Grad Student at [Boston University](https://www.bu.edu/cs/). I completed my undergrad at [Manipal Institute of Technology, India](https://manipal.edu/mit.html), and had developed a keen interest in all things ML during my first year and was fortunate to gain research experience along the way. Prior to joining BU, I worked with the Content and User Understanding team at ShareChat, and was fortunate to work on projects with the Serre Lab (Brown University), Human Dynamics Group (MIT Media Lab, Massachusetts Institute of Technology), ETS, Montreal and FOR.ai (now Cohere for AI).
 
-At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), and I'm currently exploring topics in computer vision, with a broad interest in representation learning and generative models.
+At BU, I am advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), and I'm currently exploring topics in computer vision, with a broad interest in representation learning and generative models.
  
-<a href="/files/cv/Xavier_Thomas_CV_PhD-14.pdf" target="_blank" style="color: black;">
-  <i class="fas fa-file-pdf" style="color: black;"></i> CV
-</a>
-<span style="color: black; margin: 0 0.5rem;">/</span>
-<a href="mailto:xavierohan1@gmail.com" style="color: black;">
-  <i class="fas fa-envelope" style="color: black;"></i> Email Me
-</a>
+<div class="bio-links">
+  <a href="/files/cv/Xavier_Thomas_CV_PhD-14.pdf" target="_blank" class="bio-link">
+    <i class="fas fa-file-pdf" aria-hidden="true"></i> CV
+  </a>
+  <span class="bio-link-sep" aria-hidden="true">/</span>
+  <a href="mailto:xavierohan1@gmail.com" class="bio-link">
+    <i class="fas fa-envelope" aria-hidden="true"></i> Email
+  </a>
+</div>
 
 ---
 
@@ -55,38 +57,52 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
   <div class="news-panel-scroll" tabindex="0" role="region" aria-label="News updates">
     <article class="news-entry">
       <time class="news-date" datetime="2026-04">Apr 2026</time>
+      <span class="news-tag news-tag--talk"><i class="fas fa-comment-alt"></i> Talk</span>
       <p class="news-body">Presented <a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> at the <a href="https://mlcollective.org/dlct/">ML Collective DLCT reading group</a>.</p>
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2026-03">Mar 2026</time>
+      <span class="news-tag news-tag--oral"><i class="fas fa-microphone-alt"></i> Oral</span>
       <p class="news-body"><a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> accepted as an oral at VGBE and PhysHuman workshops, CVPR 2026.</p>
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2026-02">Feb 2026</time>
+      <span class="news-tag news-tag--paper"><i class="fas fa-file-alt"></i> Paper</span>
       <p class="news-body"><a href="https://cskyl.github.io/MMA-Bench/" class="news-emphasis">Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs</a> accepted to CVPR 2026 Findings.</p>
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2025-11">Nov 2025</time>
+      <span class="news-tag news-tag--talk"><i class="fas fa-comment-alt"></i> Talk</span>
       <p class="news-body">Presented <a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> at <a href="https://necv2025.github.io/">NECV 2025</a> (oral).</p>
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2025-09">Sep 2025</time>
+      <span class="news-tag news-tag--milestone"><i class="fas fa-graduation-cap"></i> PhD</span>
       <p class="news-body">Started my PhD at Boston University, advised by <a href="https://deeptigp.github.io">Prof. Deepti Ghadiyaram</a>.</p>
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2025-06">Jun 2025</time>
+      <span class="news-tag news-tag--milestone"><i class="fas fa-chalkboard-teacher"></i> Mentor</span>
+      <p class="news-body">Mentoring a high school student in the <a href="https://www.bu.edu/summer/high-school-programs/rise-internship-practicum/">BU RISE Research Internship Program</a>.</p>
+    </article>
+    <article class="news-entry">
+      <time class="news-date" datetime="2025-06">Jun 2025</time>
+      <span class="news-tag news-tag--paper"><i class="fas fa-file-alt"></i> Paper</span>
       <p class="news-body"><a href="https://xthomasbu.github.io/GUIDE/" class="news-emphasis">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</a> and <a href="https://revelio-diffusion.github.io/revelio/" class="news-emphasis">Revelio: Interpreting and leveraging semantic information in diffusion models</a> accepted at ICCV 2025.</p>
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2025-05">May 2025</time>
+      <span class="news-tag news-tag--paper"><i class="fas fa-file-alt"></i> Paper</span>
       <p class="news-body"><a href="https://xthomasbu.github.io/GUIDE/" class="news-emphasis">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</a> accepted at the VisCon Workshop, CVPR 2025.</p>
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2025-04">Apr 2025</time>
+      <span class="news-tag news-tag--oral"><i class="fas fa-microphone-alt"></i> Oral</span>
       <p class="news-body"><a href="https://ketansuhaas.github.io/scope-diffusers" class="news-emphasis">Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models</a> accepted as an oral at the AI4CC Workshop, CVPR 2025.</p>
     </article>
     <article class="news-entry">
       <time class="news-date" datetime="2025-03">Mar 2025</time>
+      <span class="news-tag news-tag--oral"><i class="fas fa-microphone-alt"></i> Oral</span>
       <p class="news-body"><a href="https://revelio-diffusion.github.io/revelio/" class="news-emphasis">Revelio: Interpreting and leveraging semantic information in diffusion models</a> accepted as an oral at the MIV Workshop, CVPR 2025.</p>
     </article>
   </div>
@@ -97,8 +113,8 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
 <div class="section-container">
 <div class="publication-item">
   <div class="publication-content">
-    <div class="publication-title">Semantic Richness or Geometric Reasoning? The Fragility of VLM’s Visual Invariance</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Humans can tell whether two shapes match under rotation or scaling, even without naming what they are. Leading MLLMs cannot. Accuracy holds on photos but collapses on sketches and rare scripts where semantic cues becomes sparser.</p>
+    <div class="publication-title"><a href="https://xthomasbu.github.io/visual_invariance/" target="_blank" rel="noopener noreferrer">Semantic Richness or Geometric Reasoning? The Fragility of VLM’s Visual Invariance</a></div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Humans can tell whether two shapes are the same under rotation or scale, even without recognizing what the object is. Leading vision language models cannot. They need a familiar visual context to reason spatially.</p>
     <div class="publication-authors">Jason Qiu*, Zachary Meurer*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
@@ -115,8 +131,8 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
 
 <div class="publication-item">
   <div class="publication-content">
-    <div class="publication-title">Generative Action Tell-Tales: Assessing human motion in synthesized videos</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Humans can spot the wrong action or implausible motion in a generated video. MLLMs and existing metrics cannot. We learn a human centric representation of real movement and score how far a generated clip deviates from realistic action.</p>
+    <div class="publication-title"><a href="https://xthomasbu.github.io/video-gen-evals/" target="_blank" rel="noopener noreferrer">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a></div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Humans can immediately spot a generated video where the action is wrong or the movement looks off. AI metrics give it a perfect score anyway. We build a metric grounded in how real people move so that bad motion actually gets flagged.</p>
     <div class="publication-authors"><u>Xavier Thomas</u>, Youngsun Lim, Ananya Srinivasan, Audrey Zheng, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
@@ -135,8 +151,8 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
 
 <div class="publication-item">
   <div class="publication-content">
-    <div class="publication-title">Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> If you ask what you hear in a video, people listen. Ask what you see, and they look. MLLMs ignore that distinction when audio, video, and captions disagree. We build benchmarks with deliberate conflicts and fine tune models to answer from the modality being asked about.</p>
+    <div class="publication-title"><a href="https://cskyl.github.io/MMA-Bench/" target="_blank" rel="noopener noreferrer">Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs</a></div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> If you ask what you hear in a video, people listen. Ask what you see, and they look. Multimodal models often don't make that distinction. We put audio, video, and text in direct conflict and train models to answer from the sense the question actually asks about.</p>
     <div class="publication-authors">Tianle Chen*, Chaitanya Chakka*, Arjun Reddy Akula, <u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
@@ -159,8 +175,8 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
 
 <div class="publication-item">
   <div class="publication-content">
-    <div class="publication-title">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> We recognize a dog across photos, cartoons, sketches, and paintings, but classifiers often fail when visual style shifts. Diffusion latents already separate these style domains without labels, so we use them as pseudo domain features to help classifiers generalize to unseen domains, even beating methods trained with ground truth domain tags.</p>
+    <div class="publication-title"><a href="https://xthomasbu.github.io/GUIDE/" target="_blank" rel="noopener noreferrer">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</a></div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> We recognize a dog whether it is a photo, cartoon, sketch, or painting. Classifiers often fail when the visual style shifts. Diffusion model features naturally group images by style without any labels, and plugging them into a classifier improves generalization to new visual styles.</p>
     <div class="publication-authors"><u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
@@ -178,8 +194,8 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
 
 <div class="publication-item">
   <div class="publication-content">
-    <div class="publication-title">Revelio: Interpreting and leveraging semantic information in diffusion models</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Generative models produce a rich world of images, but what do they encode internally, and how is that world represented? We uncover interpretable semantic features at specific layers and timesteps with sparse autoencoders, and show they transfer to classification and other vision tasks through lightweight probes.</p>
+    <div class="publication-title"><a href="https://revelio-diffusion.github.io/revelio/" target="_blank" rel="noopener noreferrer">Revelio: Interpreting and leveraging semantic information in diffusion models</a></div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Generative models produce rich, detailed images, but what do they actually understand internally? We open them up, find that they encode meaningful visual concepts in specific layers, and show those internal representations are useful for other vision tasks.</p>
     <div class="publication-authors">Dahye Kim*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
@@ -202,8 +218,8 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
 
 <div class="publication-item">
   <div class="publication-content">
-    <div class="publication-title">Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> A painter sketches the scene first, then adds objects, then texture. Text to image models try to do all of that from one prompt. We break the prompt into the same coarse to fine steps and schedule them across denoising so the final image actually reflects what was asked for.</p>
+    <div class="publication-title"><a href="https://ketansuhaas.github.io/scope-diffusers" target="_blank" rel="noopener noreferrer">Progressive Prompt Detailing for Improved Alignment in Text-to-Image Generative Models</a></div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> A painter sketches the scene first, then fills in objects, then texture. Text to image models try to do all of that from a single prompt at once. We split the prompt into those same steps and feed them in progressively during generation, so the output actually matches the description.</p>
     <div class="publication-authors">Ketan Suhaas Saichandran*, <u>Xavier Thomas</u>*, Prakhar Kaushik, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
@@ -223,8 +239,8 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
 
 <div class="publication-item">
   <div class="publication-content">
-    <div class="publication-title">Diversity vs. Recognizability: Human-like generalization in one-shot generative models</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Given one handwritten character, people draw new examples that look like the same letter but vary in stroke. FID and likelihood miss this tradeoff, so we measure recognizability and diversity separately and compare one shot models to human samples on Omniglot.</p>
+    <div class="publication-title"><a href="https://arxiv.org/abs/2205.10370" target="_blank" rel="noopener noreferrer">Diversity vs. Recognizability: Human-like generalization in one-shot generative models</a></div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Given one handwritten character, people draw new versions that are still recognizable but not identical. Existing metrics for generative models miss this balance entirely. We measure recognizability and diversity as separate axes and test how closely models match what humans actually produce.</p>
     <div class="publication-authors">Victor Boutin, Lakshya Singhal, <u>Xavier Thomas</u>, Thomas Serre</div>
     <div class="publication-meta">
       <div class="publication-badges">
@@ -241,8 +257,8 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
 
 <div class="publication-item">
   <div class="publication-content">
-    <div class="publication-title">MAViC: Multimodal Active Learning for Video Captioning</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Video captioning requires a human written caption for every clip. We rank unlabeled videos by multimodal uncertainty and caption semantics so annotators label the clips that most improve the model.</p>
+    <div class="publication-title"><a href="https://arxiv.org/abs/2212.11109" target="_blank" rel="noopener noreferrer">MAViC: Multimodal Active Learning for Video Captioning</a></div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Training a video captioning model requires a human written caption for every clip, which is expensive. We rank which unlabeled videos are most worth annotating, so the model learns faster with fewer labels.</p>
     <div class="publication-authors">Gyanendra Das, <u>Xavier Thomas</u>, Anant Raj, Vikram Gupta</div>
     <div class="publication-meta">
       <div class="publication-badges">
@@ -258,8 +274,8 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
 
 <div class="publication-item">
   <div class="publication-content">
-    <div class="publication-title">Adaptive Methods for Aggregated Domain Generalization</div>
-    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Training data often arrives mixed across domains with no domain tags. We cluster samples into pseudo domains and train a classifier on both the image and its cluster, reaching performance competitive with domain supervised methods.</p>
+    <div class="publication-title"><a href="https://arxiv.org/abs/2112.04766" target="_blank" rel="noopener noreferrer">Adaptive Methods for Aggregated Domain Generalization</a></div>
+    <p class="publication-tldr"><span class="publication-tldr-label">TLDR</span> Training images often come from many different sources with no labels telling the model which is which. We automatically group them by visual style and train classifiers that adapt to each group, matching methods that had those source labels to begin with.</p>
     <div class="publication-authors"><u>Xavier Thomas</u>, Dhruv Mahajan, Alex Pentland, Abhimanyu Dubey</div>
     <div class="publication-meta">
       <div class="publication-badges">
@@ -274,7 +290,7 @@ At BU, I am fortunate, lucky, and grateful to be advised by [Prof. Deepti Ghadiy
   </div>
 </div>
 
-For more see <a href="https://scholar.google.com/citations?user=U5Qor54AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+<p class="scholar-note">Full list on <a href="https://scholar.google.com/citations?user=U5Qor54AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
 </div>
 
 ## Experience

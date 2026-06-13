@@ -2,7 +2,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-sans: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-sans: "Inter", "Computer Modern Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: "SF Mono", "Segoe UI Mono", "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --color-bgColor: var(--theme-bg);
@@ -77,24 +77,24 @@
 @layer base {
   :root {
     color-scheme: light;
-    --theme-bg: #fafafa;
-    --theme-text: #1a1a1a;
+    --theme-bg: #f8f7f5;
+    --theme-text: #1c1c1c;
     --theme-link: #4a5568;
     --theme-accent: #cb2941;
     --theme-accent-2: #0a0a0a;
     --theme-quote: #cb2941;
-
+    --theme-selection: rgba(23, 114, 208, 0.14);
   }
 
   :root.dark {
     color-scheme: dark;
-    --theme-bg: #1a1a1a;
-    --theme-text: #f5f5f5;
+    --theme-bg: #161616;
+    --theme-text: #ededed;
     --theme-link: #a0a0a0;
     --theme-accent: #29bc88;
     --theme-accent-2: #e5e5e5;
     --theme-quote: #cdfeb7;
-
+    --theme-selection: rgba(147, 197, 253, 0.18);
   }
 
   html {
@@ -103,16 +103,29 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    background-color: var(--theme-bg);
+    background-image: radial-gradient(ellipse 130% 55% at 50% -5%, rgba(200, 188, 170, 0.26) 0%, transparent 65%);
+    background-attachment: fixed;
 
     @variant sm {
       font-size: 16px;
     }
   }
 
+  html.dark {
+    background-image: radial-gradient(ellipse 130% 55% at 50% -5%, rgba(55, 38, 28, 0.55) 0%, transparent 65%);
+  }
+
   html body {
-    @apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-8 text-textColor antialiased overflow-x-hidden;
+    @apply mx-auto flex min-h-screen max-w-3xl flex-col px-8 pt-8 text-textColor antialiased overflow-x-hidden;
+    background: transparent;
     animation: fadeIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-    letter-spacing: -0.011em;
+    letter-spacing: -0.012em;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  ::selection {
+    background: var(--theme-selection);
   }
 
   @keyframes fadeIn {

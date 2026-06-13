@@ -10,5 +10,5 @@ body {
 }
 
 html.dark {
-  @apply bg-gray-700;
+  background-color: var(--theme-bg); /* base color; gradient applied in global.css */
 }
