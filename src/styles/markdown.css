@@ -1080,6 +1080,43 @@ html.dark .prose .exp-tag--intern {
   font-size: 0.85em;
 }
 
+/* Publication year group separators */
+.prose .pub-year-group {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin: 1.75rem 0 0.25rem;
+}
+
+.prose .pub-year-group:first-child {
+  margin-top: 0.25rem;
+}
+
+.prose .pub-year-group-label {
+  font-family: var(--font-mono);
+  font-size: 0.7em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.28);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+html.dark .prose .pub-year-group-label {
+  color: rgba(255, 255, 255, 0.28);
+}
+
+.prose .pub-year-group-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.08), transparent 70%);
+}
+
+html.dark .prose .pub-year-group-line {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), transparent 70%);
+}
+
 .prose .scholar-note {
   @apply text-c-lighter;
   font-size: 0.85em;

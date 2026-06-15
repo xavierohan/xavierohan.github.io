@@ -111,6 +111,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 ## Research
 
 <div class="section-container">
+<div class="pub-year-group"><span class="pub-year-group-label">2026</span><span class="pub-year-group-line"></span></div>
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title"><a href="https://xthomasbu.github.io/visual_invariance/" target="_blank" rel="noopener noreferrer">Semantic Richness or Geometric Reasoning? The Fragility of VLM’s Visual Invariance</a></div>
@@ -173,6 +174,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   </div>
 </div>
 
+<div class="pub-year-group"><span class="pub-year-group-label">2025</span><span class="pub-year-group-line"></span></div>
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title"><a href="https://xthomasbu.github.io/GUIDE/" target="_blank" rel="noopener noreferrer">What's in a Latent? Leveraging Diffusion Latent Space for Domain Generalization</a></div>
@@ -237,6 +239,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   </div>
 </div>
 
+<div class="pub-year-group"><span class="pub-year-group-label">2022</span><span class="pub-year-group-line"></span></div>
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title"><a href="https://arxiv.org/abs/2205.10370" target="_blank" rel="noopener noreferrer">Diversity vs. Recognizability: Human-like generalization in one-shot generative models</a></div>
@@ -272,6 +275,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
   </div>
 </div>
 
+<div class="pub-year-group"><span class="pub-year-group-label">2021</span><span class="pub-year-group-line"></span></div>
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-title"><a href="https://arxiv.org/abs/2112.04766" target="_blank" rel="noopener noreferrer">Adaptive Methods for Aggregated Domain Generalization</a></div>
