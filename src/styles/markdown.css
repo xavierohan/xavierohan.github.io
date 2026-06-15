@@ -872,15 +872,16 @@ html.dark .prose .pub-badge {
 }
 
 .prose .pub-oral {
-  @apply text-c-active;
-  border-color: rgba(23, 114, 208, 0.18);
-  background: rgba(23, 114, 208, 0.05);
+  color: rgba(185, 35, 55, 0.82);
+  background: rgba(203, 41, 65, 0.07);
+  border-color: rgba(203, 41, 65, 0.13);
   font-weight: 600;
 }
 
 html.dark .prose .pub-oral {
-  border-color: rgba(147, 197, 253, 0.22);
-  background: rgba(147, 197, 253, 0.08);
+  color: rgba(255, 120, 140, 0.9);
+  background: rgba(255, 80, 100, 0.1);
+  border-color: rgba(255, 100, 120, 0.18);
 }
 
 .prose .publication-links {
@@ -922,6 +923,131 @@ html.dark .prose .publication-links::before {
 .prose .pub-link:hover {
   @apply underline;
   opacity: 0.85;
+}
+
+/* Colored pub-link variants */
+.prose .pub-link--webpage {
+  color: rgba(30, 85, 185, 0.82);
+  background: rgba(40, 100, 220, 0.07);
+  border: 1px solid rgba(40, 100, 220, 0.13);
+  padding: 0.12rem 0.52rem;
+  border-radius: 4px;
+}
+html.dark .prose .pub-link--webpage {
+  color: rgba(130, 170, 255, 0.9);
+  background: rgba(100, 150, 255, 0.1);
+  border-color: rgba(100, 150, 255, 0.18);
+}
+
+.prose .pub-link--paper {
+  color: rgba(160, 75, 15, 0.82);
+  background: rgba(200, 100, 20, 0.07);
+  border: 1px solid rgba(200, 100, 20, 0.13);
+  padding: 0.12rem 0.52rem;
+  border-radius: 4px;
+}
+html.dark .prose .pub-link--paper {
+  color: rgba(255, 170, 100, 0.9);
+  background: rgba(230, 130, 50, 0.1);
+  border-color: rgba(230, 130, 50, 0.18);
+}
+
+.prose .pub-link--code {
+  color: rgba(40, 115, 60, 0.82);
+  background: rgba(50, 140, 70, 0.07);
+  border: 1px solid rgba(50, 140, 70, 0.13);
+  padding: 0.12rem 0.52rem;
+  border-radius: 4px;
+}
+html.dark .prose .pub-link--code {
+  color: rgba(120, 210, 145, 0.9);
+  background: rgba(80, 190, 110, 0.1);
+  border-color: rgba(80, 190, 110, 0.18);
+}
+
+/* Colored venue badge variants */
+.prose .pub-venue--cvpr {
+  color: rgba(30, 85, 185, 0.88);
+  background: rgba(40, 100, 220, 0.08);
+  border-color: rgba(40, 100, 220, 0.15);
+}
+html.dark .prose .pub-venue--cvpr {
+  color: rgba(140, 175, 255, 0.92);
+  background: rgba(100, 150, 255, 0.12);
+  border-color: rgba(100, 150, 255, 0.2);
+}
+
+.prose .pub-venue--iccv {
+  color: rgba(15, 110, 95, 0.88);
+  background: rgba(20, 145, 125, 0.07);
+  border-color: rgba(20, 145, 125, 0.14);
+}
+html.dark .prose .pub-venue--iccv {
+  color: rgba(80, 215, 195, 0.92);
+  background: rgba(40, 185, 165, 0.1);
+  border-color: rgba(40, 185, 165, 0.2);
+}
+
+.prose .pub-venue--neurips {
+  color: rgba(100, 45, 165, 0.88);
+  background: rgba(130, 60, 210, 0.07);
+  border-color: rgba(130, 60, 210, 0.13);
+}
+html.dark .prose .pub-venue--neurips {
+  color: rgba(195, 145, 255, 0.92);
+  background: rgba(165, 105, 255, 0.1);
+  border-color: rgba(165, 105, 255, 0.18);
+}
+
+/* Experience role tags */
+.prose .exp-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.42rem;
+  border-radius: 4px;
+  font-size: 0.62em;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  line-height: 1.6;
+  border: 1px solid transparent;
+  margin-left: 0.55rem;
+  vertical-align: middle;
+  position: relative;
+  top: -0.08em;
+}
+
+.prose .exp-tag--research {
+  color: rgba(30, 85, 185, 0.82);
+  background: rgba(40, 100, 220, 0.07);
+  border-color: rgba(40, 100, 220, 0.13);
+}
+html.dark .prose .exp-tag--research {
+  color: rgba(130, 170, 255, 0.9);
+  background: rgba(100, 150, 255, 0.1);
+  border-color: rgba(100, 150, 255, 0.18);
+}
+
+.prose .exp-tag--industry {
+  color: rgba(160, 75, 15, 0.82);
+  background: rgba(200, 100, 20, 0.07);
+  border-color: rgba(200, 100, 20, 0.13);
+}
+html.dark .prose .exp-tag--industry {
+  color: rgba(255, 170, 100, 0.9);
+  background: rgba(230, 130, 50, 0.1);
+  border-color: rgba(230, 130, 50, 0.18);
+}
+
+.prose .exp-tag--intern {
+  color: rgba(100, 80, 50, 0.82);
+  background: rgba(140, 110, 70, 0.07);
+  border-color: rgba(140, 110, 70, 0.13);
+}
+html.dark .prose .exp-tag--intern {
+  color: rgba(220, 190, 140, 0.9);
+  background: rgba(200, 160, 100, 0.1);
+  border-color: rgba(200, 160, 100, 0.18);
 }
 
 .prose .publication-meta a {

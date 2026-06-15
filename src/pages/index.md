@@ -18,7 +18,7 @@ socials:
 
 👋 Hi! I'm currently a Grad Student at [Boston University](https://www.bu.edu/cs/). I completed my undergrad at [Manipal Institute of Technology, India](https://manipal.edu/mit.html), and had developed a keen interest in all things ML during my first year and was fortunate to gain research experience along the way. Prior to joining BU, I worked with the Content and User Understanding team at ShareChat, and was fortunate to work on projects with the Serre Lab (Brown University), Human Dynamics Group (MIT Media Lab, Massachusetts Institute of Technology), ETS, Montreal and FOR.ai (now Cohere for AI).
 
-At BU, I am advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), and I'm currently exploring topics in computer vision, with a broad interest in representation learning and generative models.
+At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), and I'm currently exploring topics in computer vision, with a broad interest in representation learning and generative models.
  
 <div class="bio-links">
   <a href="/files/cv/Xavier_Thomas_CV_PhD-14.pdf" target="_blank" class="bio-link">
@@ -136,7 +136,7 @@ At BU, I am advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), an
     <div class="publication-authors"><u>Xavier Thomas</u>, Youngsun Lim, Ananya Srinivasan, Audrey Zheng, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
-        <span class="pub-badge pub-venue">CVPR</span>
+        <span class="pub-badge pub-venue pub-venue--cvpr">CVPR</span>
         <span class="pub-badge pub-workshop">VGBE Workshop</span>
         <span class="pub-badge pub-year">2026</span>
         <span class="pub-badge pub-oral"><i class="fas fa-microphone" aria-hidden="true"></i> Oral</span>
@@ -156,11 +156,11 @@ At BU, I am advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), an
     <div class="publication-authors">Tianle Chen*, Chaitanya Chakka*, Arjun Reddy Akula, <u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
-        <span class="pub-badge pub-venue">CVPR</span>
+        <span class="pub-badge pub-venue pub-venue--cvpr">CVPR</span>
         <span class="pub-badge pub-type">Findings</span>
         <span class="pub-badge pub-year">2026</span>
         <span class="pub-badge-divider" aria-hidden="true"></span>
-        <span class="pub-badge pub-venue">CVPR</span>
+        <span class="pub-badge pub-venue pub-venue--cvpr">CVPR</span>
         <span class="pub-badge pub-workshop">Sight and Sound Workshop</span>
         <span class="pub-badge pub-year">2026</span>
         <span class="pub-badge pub-oral"><i class="fas fa-microphone" aria-hidden="true"></i> Oral</span>
@@ -180,7 +180,7 @@ At BU, I am advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), an
     <div class="publication-authors"><u>Xavier Thomas</u>, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
-        <span class="pub-badge pub-venue">ICCV</span>
+        <span class="pub-badge pub-venue pub-venue--iccv">ICCV</span>
         <span class="pub-badge pub-year">2025</span>
       </div>
       <div class="publication-links">
@@ -199,10 +199,10 @@ At BU, I am advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), an
     <div class="publication-authors">Dahye Kim*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
-        <span class="pub-badge pub-venue">ICCV</span>
+        <span class="pub-badge pub-venue pub-venue--iccv">ICCV</span>
         <span class="pub-badge pub-year">2025</span>
         <span class="pub-badge-divider" aria-hidden="true"></span>
-        <span class="pub-badge pub-venue">CVPR</span>
+        <span class="pub-badge pub-venue pub-venue--cvpr">CVPR</span>
         <span class="pub-badge pub-workshop">MIV Workshop</span>
         <span class="pub-badge pub-year">2025</span>
         <span class="pub-badge pub-oral"><i class="fas fa-microphone" aria-hidden="true"></i> Oral</span>
@@ -223,7 +223,7 @@ At BU, I am advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), an
     <div class="publication-authors">Ketan Suhaas Saichandran*, <u>Xavier Thomas</u>*, Prakhar Kaushik, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
-        <span class="pub-badge pub-venue">CVPR</span>
+        <span class="pub-badge pub-venue pub-venue--cvpr">CVPR</span>
         <span class="pub-badge pub-workshop">AI4CC Workshop</span>
         <span class="pub-badge pub-year">2025</span>
         <span class="pub-badge pub-oral"><i class="fas fa-microphone" aria-hidden="true"></i> Oral</span>
@@ -244,7 +244,7 @@ At BU, I am advised by [Prof. Deepti Ghadiyaram](https://deeptigp.github.io), an
     <div class="publication-authors">Victor Boutin, Lakshya Singhal, <u>Xavier Thomas</u>, Thomas Serre</div>
     <div class="publication-meta">
       <div class="publication-badges">
-        <span class="pub-badge pub-venue">NeurIPS</span>
+        <span class="pub-badge pub-venue pub-venue--neurips">NeurIPS</span>
         <span class="pub-badge pub-year">2022</span>
       </div>
       <div class="publication-links">
