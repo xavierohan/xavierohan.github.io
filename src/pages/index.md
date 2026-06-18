@@ -56,6 +56,11 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 <div class="news-panel">
   <div class="news-panel-scroll" tabindex="0" role="region" aria-label="News updates">
     <article class="news-entry">
+      <time class="news-date" datetime="2026-06">Jun 2026</time>
+      <span class="news-tag news-tag--paper"><i class="fas fa-file-alt"></i> Paper</span>
+      <p class="news-body"><a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> accepted to ECCV 2026.</p>
+    </article>
+    <article class="news-entry">
       <time class="news-date" datetime="2026-04">Apr 2026</time>
       <span class="news-tag news-tag--talk"><i class="fas fa-comment-alt"></i> Talk</span>
       <p class="news-body">Presented <a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> at the <a href="https://mlcollective.org/dlct/">ML Collective DLCT reading group</a>.</p>
@@ -137,6 +142,9 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
     <div class="publication-authors"><u>Xavier Thomas</u>, Youngsun Lim, Ananya Srinivasan, Audrey Zheng, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
+        <span class="pub-badge pub-venue pub-venue--eccv">ECCV</span>
+        <span class="pub-badge pub-year">2026</span>
+        <span class="pub-badge-divider" aria-hidden="true"></span>
         <span class="pub-badge pub-venue pub-venue--cvpr">CVPR</span>
         <span class="pub-badge pub-workshop">VGBE Workshop</span>
         <span class="pub-badge pub-year">2026</span>

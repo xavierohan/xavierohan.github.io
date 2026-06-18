@@ -966,6 +966,17 @@ html.dark .prose .pub-link--code {
 }
 
 /* Colored venue badge variants */
+.prose .pub-venue--eccv {
+  color: rgba(85, 130, 10, 0.88);
+  background: rgba(110, 160, 15, 0.07);
+  border-color: rgba(110, 160, 15, 0.15);
+}
+html.dark .prose .pub-venue--eccv {
+  color: rgba(185, 230, 80, 0.92);
+  background: rgba(160, 210, 40, 0.1);
+  border-color: rgba(160, 210, 40, 0.2);
+}
+
 .prose .pub-venue--cvpr {
   color: rgba(30, 85, 185, 0.88);
   background: rgba(40, 100, 220, 0.08);
