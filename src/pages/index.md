@@ -56,6 +56,11 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
 <div class="news-panel">
   <div class="news-panel-scroll" tabindex="0" role="region" aria-label="News updates">
     <article class="news-entry">
+      <time class="news-date" datetime="2026-07">Jul 2026</time>
+      <span class="news-tag news-tag--paper"><i class="fas fa-file-alt"></i> Paper</span>
+      <p class="news-body"><a href="https://xthomasbu.github.io/visual_invariance/" class="news-emphasis">Semantic Richness or Geometric Reasoning? The Fragility of VLM's Visual Invariance</a> accepted to COLM 2026.</p>
+    </article>
+    <article class="news-entry">
       <time class="news-date" datetime="2026-06">Jun 2026</time>
       <span class="news-tag news-tag--paper"><i class="fas fa-file-alt"></i> Paper</span>
       <p class="news-body"><a href="https://xthomasbu.github.io/video-gen-evals/" class="news-emphasis">Generative Action Tell-Tales: Assessing human motion in synthesized videos</a> accepted to ECCV 2026.</p>
@@ -124,7 +129,7 @@ At BU, I am fortunate to be advised by [Prof. Deepti Ghadiyaram](https://deeptig
     <div class="publication-authors">Jason Qiu*, Zachary Meurer*, <u>Xavier Thomas</u>*, Deepti Ghadiyaram</div>
     <div class="publication-meta">
       <div class="publication-badges">
-        <span class="pub-badge pub-venue">Preprint</span>
+        <span class="pub-badge pub-venue pub-venue--colm">COLM</span>
         <span class="pub-badge pub-year">2026</span>
       </div>
       <div class="publication-links">
